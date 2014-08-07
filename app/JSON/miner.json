@@ -1,0 +1,200 @@
+{
+	"Miner":{
+      "1":{
+         "Gold Ingot":{
+            "Gold":"10"
+         }
+      },
+      "2":{
+         "Agathe":{
+            "Water":"10",
+            "Agathe Stone":"10"
+         },
+         "Aquamarine":{
+            "Water":"10",
+            "Aquamarine Stone":"10"
+         },
+         "Crystal":{
+            "Water":"10",
+            "Crystal Stone":"10"
+         },
+         "Diamond":{
+            "Water":"10",
+            "Diamond Stone":"10"
+         },
+         "Emerald":{
+            "Water":"10",
+            "Emerald Stone":"10"
+         },
+         "Mother of Pearl":{
+            "Water":"10",
+            "Raw Mother of Pearl":"10"
+         },
+         "Ruby":{
+            "Water":"10",
+            "Ruby Stone":"10"
+         },
+         "Sapphire":{
+            "Water":"10",
+            "Sapphire Stone":"10"
+         },
+         "Topaz":{
+            "Water":"10",
+            "Topaz Stone":"10"
+         },
+         "Signature Rune":{
+            "Gold":"1",
+            "Memory Potion":"1"
+         },
+         "Aluminite":{
+            "Iron":"10",
+            "Copper":"10"
+         }
+      },
+      "3":{
+         "Ebonite":{
+            "Iron":"10",
+            "Copper":"10",
+            "Bronze":"10"
+         },
+         "Liquid Metal Potion":{
+            "Glass Bowl":"1",
+            "Copper":"2",
+            "Bronze":"2"
+         }
+      },
+      "4":{
+         "Profession Rune":{
+            "Bambooto Amber":"1",
+            "Amber":"1",
+            "Crackler Stone":"1",
+            "Profession deleveling potion for the profession in question":"1"
+         },
+         "Magnesite":{
+            "Iron":"10",
+            "Copper":"10",
+            "Bronze":"10",
+            "Cobalt":"10"
+         },
+         "Liquid Heavy Metal Potion":{
+            "Glass Bowl":"1",
+            "Cobalt":"2",
+            "Manganese":"2",
+            "Tin":"2"
+         }
+      },
+      "5":{
+         "Perfect Soul Stone for Small Souls":{
+            "Crimson Pebble":"1",
+            "Earth Pandawushu Artefact":"1",
+            "Fire Pandawushu Artefact":"1",
+            "Air Pandawushu Artefact":"1",
+            "Water Pandawushu Artefact":"1"
+         },
+         "Bakelelite":{
+            "Iron":"10",
+            "Copper":"10",
+            "Bronze":"10",
+            "Cobalt":"10",
+            "Manganese":"10"
+         },
+         "Liquid Precious Metal Potion":{
+            "Glass Bowl":"1",
+            "Silver":"2",
+            "Bauxite":"2",
+            "Gold":"2",
+            "Crackler Stone":"1"
+         }
+      },
+      "6":{
+         "Perfect Soul Stone for Average Souls":{
+            "Crimson Pebble":"2",
+            "Mineral Potion":"1",
+            "Earth Pandawushu Artefact":"1",
+            "Fire Pandawushu Artefact":"1",
+            "Air Pandawushu Artefact":"1",
+            "Water Pandawushu Artefact":"1"
+         },
+         "Kouartz":{
+            "Iron":"10",
+            "Copper":"10",
+            "Bronze":"10",
+            "Cobalt":"10",
+            "Manganese":"10",
+            "Tin":"10"
+         }
+      },
+      "7":{
+         "Perfect Soul Stone for Big Souls":{
+            "Crimson Pebble":"3",
+            "Mineral Potion":"1",
+            "Earth Pandawushu Artefact":"1",
+            "Fire Pandawushu Artefact":"1",
+            "Air Pandawushu Artefact":"1",
+            "Water Pandawushu Artefact":"1",
+            "Pointed Stone Fragment":"1"
+         },
+         "Kriptonite":{
+            "Iron":"10",
+            "Copper":"10",
+            "Bronze":"10",
+            "Cobalt":"10",
+            "Manganese":"10",
+            "Tin":"10",
+            "Silver":"10"
+         }
+      },
+      "8":{
+         "Perfect Soul Stone for Gigantic Souls":{
+            "Crimson Pebble":"4",
+            "Mineral Potion":"1",
+            "Earth Pandawushu Artefact":"1",
+            "Fire Pandawushu Artefact":"1",
+            "Air Pandawushu Artefact":"1",
+            "Water Pandawushu Artefact":"1",
+            "Pointed Stone Fragment":"1",
+            "Alteration Potion":"1"
+         },
+         "Kobalite":{
+            "Iron":"10",
+            "Copper":"10",
+            "Bronze":"10",
+            "Cobalt":"10",
+            "Manganese":"10",
+            "Tin":"10",
+            "Silver":"10",
+            "Bauxite":"10"
+         },
+         "Pyrute":{
+            "Copper":"10",
+            "Bronze":"10",
+            "Cobalt":"10",
+            "Manganese":"10",
+            "Tin":"10",
+            "Silver":"10",
+            "Bauxite":"10",
+            "Dolomite":"10"
+         },
+         "Brassic":{
+            "Copper":"10",
+            "Bronze":"10",
+            "Cobalt":"10",
+            "Manganese":"10",
+            "Tin":"10",
+            "Silicate":"10",
+            "Silver":"10",
+            "Gold":"10"
+         },
+         "Ardonite":{
+            "Obsidian":"10",
+            "Dolomite":"10",
+            "Silicate":"10",
+            "Cobalt":"10",
+            "Manganese":"10",
+            "Tin":"10",
+            "Bronze":"10",
+            "Bauxite":"10"
+         }
+      }
+   }
+}

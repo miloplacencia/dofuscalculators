@@ -1,0 +1,100 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js">
+<!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css styles/vendor.css -->
+    <link rel="stylesheet" href="bower_components/nprogress/nprogress.css">
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="favicon.png" type="image/png" />
+    <!-- build:css({.tmp,app}) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  </head>
+  <body ng-app="DofusExpCalculator">
+    <div class="contenedorIndex" ng-controller="MainController">
+      <div class="preloader" ng-cloak>
+        <span class="iconoPreload icon-dofus-calculators-only"></span>
+      </div>
+      <header ng-cloak>
+        <h1 id="logo">
+            <span class="logoFull icon-dofus-calculators"></span>
+            <span class="logoMinimal icon-dofus-calculators-only"></span>
+            <span class="visuallyhidden">Dofus Profession Calculator</span>
+        </h1>
+        <nav>
+            <a href="#/professions_calculator" 
+                id="profession" 
+                class="menu right icon-handyman"
+                ng-class="{ active: isProfession() }"></a>
+            <a href="#/hunter_calculator/hunter_butcher" 
+                id="butcher" 
+                class="menu right icon-butcher"
+                ng-class="{ active: !isProfession() }"></a>
+        </nav>
+      </header>
+      <div class="contenido" ng-cloak>
+        <div class="warning fila">
+          <div class="warningmsg">
+            <span class="msgWrn">
+              <strong>ATENTION!</strong> The <strong>Hunter &amp; Butcher Calculator</strong> is in Beta State! Test it and see if you like it! :D.
+            </span>
+            <div class="iconHandyman icon-handyman"></div>
+          </div><!--end warningmsg-->
+        </div><!--end warning -->
+
+        <div class="profesiones" ng-view></div>
+        
+        <footer class="fila">
+          <div class="footerDeep">
+            <small>Dofus belongs to Ankama. This site is a fan creation by milo Placencia, who is not associated with Ankama in any way.</small>
+            <small>You've got feedback? <a href="mailto:milo@ciudadcolor.com">Mail me!</a></small>
+          </div>
+        </footer>
+      </div><!--end contenido-->
+    </div><!--end contenedorIndex-->
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/es5-shim/es5-shim.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/json3/lib/json3.min.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/nprogress/nprogress.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/services.js"></script>
+    <script src="scripts/directives/directives.js"></script>
+    <script src="scripts/filters/filters.js"></script>
+    <script src="scripts/controllers/main.js"></script>
+    <script src="scripts/services/hunterfactory.js"></script>
+    <!-- endbuild -->
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-47519870-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+
+        ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+  </body>
+</html>

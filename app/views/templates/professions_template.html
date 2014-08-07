@@ -1,0 +1,13 @@
+<div 
+	ng-repeat="pro in profession.list" 
+	title="{{ pro }}" 
+	class="profession profession_{{ pro | lowercase }}" 
+	ng-class="{check:checked(pro)}">
+    <a 
+    	href="#/professions_calculator/{{ pro }}/{{ profession.exp }}/{{ profession.level }}/" 
+    	rel="Profession {{ pro }}">
+        <span id="icon-{{ pro | lowercase }}">
+            <span class="icon-{{ pro | lowercase }}"></span>
+        </span>
+    </a>
+</div><!--end .profession-->

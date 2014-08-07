@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "dofus-professions";
+  src:url("../fonts/dofus-professions.eot");
+  src:url("../fonts/dofus-professions.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/dofus-professions.woff") format("woff"),
+    url("../fonts/dofus-professions.ttf") format("truetype"),
+    url("../fonts/dofus-professions.svg#dofus-professions") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "dofus-professions" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "dofus-professions" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-alchemist:before {
+  content: "a";
+}
+.icon-alchemist:before {
+  content: "a";
+}
+.icon-alchemist:before {
+  content: "a";
+}
+.icon-axe-smith:before {
+  content: "b";
+}
+.icon-baker:before {
+  content: "c";
+}
+.icon-wand-carver:before {
+  content: "d";
+}
+.icon-tailor:before {
+  content: "e";
+}
+.icon-sword-smith:before {
+  content: "f";
+}
+.icon-staff-carver:before {
+  content: "g";
+}
+.icon-shovel-smith:before {
+  content: "h";
+}
+.icon-shoemaker:before {
+  content: "i";
+}
+.icon-shield-smith:before {
+  content: "j";
+}
+.icon-miner:before {
+  content: "k";
+}
+.icon-bow-carver:before {
+  content: "m";
+}
+.icon-butcher:before {
+  content: "n";
+}
+.icon-dagger-smith:before {
+  content: "o";
+}
+.icon-farmer:before {
+  content: "p";
+}
+.icon-fisherman:before {
+  content: "q";
+}
+.icon-fishmonger:before {
+  content: "r";
+}
+.icon-hammer-smith:before {
+  content: "s";
+}
+.icon-handyman:before {
+  content: "t";
+}
+.icon-hunter:before {
+  content: "u";
+}
+.icon-jeweller:before {
+  content: "v";
+}
+.icon-alchemist:before {
+  content: "a";
+}
+.icon-lumberjack:before {
+  content: "l";
+}
+.icon-fontawesome-webfont-1:before {
+  content: "w";
+}
+.icon-list:before {
+  content: "x";
+}
+.icon-eye:before {
+  content: "B";
+}
+.icon-alert:before {
+  content: "C";
+}
+.icon-megaphone:before {
+  content: "D";
+}
+.icon-fontawesome-webfont:before {
+  content: "y";
+}
+.icon-dofus-calculators:before {
+  content: "A";
+}
+.icon-dofus-calculators-only:before {
+  content: "z";
+}

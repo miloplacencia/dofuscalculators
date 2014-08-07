@@ -1,0 +1,558 @@
+{
+   "Shovel-Smith":{
+      "1":[
+
+      ],
+      "2":{
+         "Small Twiggy Shovel (1)":{
+            "Iron":"2",
+            "Ash Wood":"1"
+         },
+         "Twiggy Shovel (2)":{
+            "Iron":"3",
+            "Ash Wood":"1"
+         },
+         "Great Twiggy Shovel (4)":{
+            "Iron":"4",
+            "Ash Wood":"1"
+         },
+         "Powerful Twiggy Shovel (6)":{
+            "Iron":"5",
+            "Ash Wood":"1"
+         }
+      },
+      "3":{
+         "Crapouille's Small Shovel (13)":{
+            "Walnut Wood":"6",
+            "Chestnut Wood":"6",
+            "Copper":"2"
+         },
+         "Small Scratchy Shovel (13)":{
+            "Walnut Wood":"6",
+            "Oak Wood":"2",
+            "Manganese":"2"
+         },
+         "Crapouille's Shovel (15)":{
+            "Chestnut Wood":"6",
+            "Walnut Wood":"6",
+            "Copper":"4"
+         },
+         "Field Shovel (15)":{
+            "Ash Wood":"6",
+            "Iron":"4",
+            "Chestnut Wood":"4"
+         },
+         "Scratchy Shovel (15)":{
+            "Walnut Wood":"6",
+            "Oak Wood":"4",
+            "Manganese":"3"
+         },
+         "Crapouille Great Shovel (16)":{
+            "Chestnut Wood":"6",
+            "Walnut Wood":"6",
+            "Copper":"6"
+         },
+         "Crapouille's Powerful Shovel (17)":{
+            "Copper":"8",
+            "Chestnut Wood":"6",
+            "Walnut Wood":"6"
+         },
+         "Great Scratchy Shovel (17)":{
+            "Walnut Wood":"6",
+            "Manganese":"4",
+            "Oak Wood":"3"
+         },
+         "Powerful Scratchy Shovel (19)":{
+            "Walnut Wood":"5",
+            "Manganese":"5",
+            "Oak Wood":"4"
+         }
+      },
+      "4":{
+         "Crackler's Small Shovel (20)":{
+            "Oak Wood":"5",
+            "Maple Wood":"4",
+            "Manganese":"2",
+            "Tin":"1"
+         },
+         "Greybeard (20)":{
+            "Yew Wood":"3",
+            "Cherry Wood":"2",
+            "Tin":"1",
+            "Silver":"1"
+         },
+         "Houze Shovel (21)":{
+            "Iron":"8",
+            "Tin":"8",
+            "Walnut Wood":"4",
+            "Chestnut Wood":"4"
+         },
+         "Crackler Shovel (23)":{
+            "Oak Wood":"6",
+            "Maple Wood":"5",
+            "Manganese":"4",
+            "Tin":"1"
+         },
+         "Layte's Slicer (24)":{
+            "Tin":"10",
+            "Great Chance Ring":"10",
+            "Drizzle Potion":"5",
+            "Great Pushn Shovel":"1"
+         },
+         "Koutoulou's Small Shovel (25)":{
+            "Oak Wood":"8",
+            "Little Owl Amulet":"5",
+            "Evil Tofu Tooth":"4",
+            "Wabbit Tooth":"3"
+         },
+         "Small Pushn Shovel (25)":{
+            "Yew Wood":"3",
+            "Bauxite":"3",
+            "Manganese":"2",
+            "Oak Wood":"2"
+         },
+         "Great Crackler Shovel (26)":{
+            "Oak Wood":"7",
+            "Manganese":"6",
+            "Maple Wood":"6",
+            "Tin":"1"
+         },
+         "Pushn Shovel (27)":{
+            "Yew Wood":"4",
+            "Bauxite":"3",
+            "Oak Wood":"3",
+            "Manganese":"2"
+         },
+         "Koutoulou's Shovel (28)":{
+            "Oak Wood":"8",
+            "Owl Amulet":"5",
+            "Evil Tofu Tooth":"4",
+            "Wabbit Tooth":"3"
+         },
+         "Powerful Crackler Shovel (29)":{
+            "Oak Wood":"8",
+            "Manganese":"8",
+            "Maple Wood":"7",
+            "Tin":"1"
+         },
+         "Great Pushn Shovel (29)":{
+            "Bauxite":"4",
+            "Oak Wood":"4",
+            "Manganese":"3",
+            "Yew Wood":"3"
+         },
+         "Small Mechba Shovel (30)":{
+            "Iron":"4",
+            "Bronze":"4",
+            "Cherry Wood":"2",
+            "Tin":"1"
+         },
+         "Koutoulou's Great Shovel (31)":{
+            "Oak Wood":"8",
+            "Beautiful Owl Amulet":"5",
+            "Evil Tofu Tooth":"4",
+            "Wabbit Tooth":"3"
+         },
+         "Powerful Pushn Shovel (31)":{
+            "Yew Wood":"5",
+            "Oak Wood":"5",
+            "Manganese":"4",
+            "Bauxite":"3"
+         },
+         "Koutoulou's Frightening Shovel (34)":{
+            "Oak Wood":"8",
+            "Powerful Owl Amulet":"5",
+            "Evil Tofu Tooth":"4",
+            "Wabbit Tooth":"3"
+         },
+         "Small Sleeping Shovel (34)":{
+            "Manganese":"6",
+            "Silver":"6",
+            "Hornbeam Wood":"2",
+            "Tofish Sandals":"1"
+         },
+         "Sleeping Shovel (37)":{
+            "Manganese":"8",
+            "Silver":"7",
+            "Hornbeam Wood":"2",
+            "Tofish Sandals":"1"
+         },
+         "Great Sleeping Shovel (40)":{
+            "Manganese":"10",
+            "Silver":"8",
+            "Hornbeam Wood":"3",
+            "Tofish Sandals":"1"
+         },
+         "Magnificent Sleeping Shovel (43)":{
+            "Manganese":"12",
+            "Silver":"9",
+            "Hornbeam Wood":"3",
+            "Tofish Sandals":"1"
+         },
+         "Mechba Shovel (45)":{
+            "Bronze":"4",
+            "Iron":"4",
+            "Cherry Wood":"2",
+            "Tin":"2"
+         },
+         "Ikan Shovel (50)":{
+            "Crab Pincer":"15",
+            "Gold":"5",
+            "Ebony Wood":"5",
+            "Ruby":"1"
+         }
+      },
+      "5":{
+         "Small Mishmashovel (38)":{
+            "Maple Wood":"6",
+            "Wild Sunflower Seed":"5",
+            "Demonic Rose Petal":"5",
+            "Evil Dandelion Tongue":"5",
+            "Bronze":"4"
+         },
+         "Golden Rhizome (40)":{
+            "Yew Wood":"6",
+            "Manganese":"6",
+            "Maple Wood":"5",
+            "Gold":"5",
+            "Copper":"2"
+         },
+         "Mishmashovel (42)":{
+            "Demonic Rose Petal":"7",
+            "Evil Dandelion Tongue":"7",
+            "Maple Wood":"6",
+            "Wild Sunflower Seed":"5",
+            "Bronze":"4"
+         },
+         "Great Mishmashovel (46)":{
+            "Demonic Rose Petal":"9",
+            "Evil Dandelion Tongue":"9",
+            "Maple Wood":"7",
+            "Wild Sunflower Seed":"6",
+            "Bronze":"5"
+         },
+         "Small Woukuis Shovel (49)":{
+            "Tofu Egg":"10",
+            "Salt":"10",
+            "Yew Wood":"6",
+            "Bauxite":"4",
+            "Palm Oil":"1"
+         },
+         "Powerful Mishmashovel (50)":{
+            "Evil Dandelion Tongue":"11",
+            "Demonic Rose Petal":"11",
+            "Maple Wood":"7",
+            "Wild Sunflower Seed":"7",
+            "Bronze":"6"
+         },
+         "Woukuis Shovel (54)":{
+            "Salt":"14",
+            "Tofu Egg":"13",
+            "Yew Wood":"7",
+            "Bauxite":"5",
+            "Palm Oil":"2"
+         },
+         "Great Woukuis Shovel (59)":{
+            "Salt":"18",
+            "Tofu Egg":"16",
+            "Yew Wood":"8",
+            "Bauxite":"6",
+            "Palm Oil":"3"
+         },
+         "Great Mechba Shovel (60)":{
+            "Bronze":"2",
+            "Iron":"2",
+            "Cherry Wood":"1",
+            "Small Mechba Shovel":"1",
+            "Tin":"1"
+         },
+         "Imposing Woukuis Shovel (64)":{
+            "Salt":"20",
+            "Tofu Egg":"18",
+            "Yew Wood":"9",
+            "Bauxite":"7",
+            "Palm Oil":"4"
+         },
+         "RIP Shovel (66)":{
+            "Mojeeto Bulb":"4",
+            "Preserved Insect Flesh **":"16",
+            "Preserved Larva Flesh ***":"8",
+            "Worn Coral":"3",
+            "Great Coral":"1"
+         }
+      },
+      "6":{
+         "Doudish Shovel (52)":{
+            "Chestnut Wood":"10",
+            "Walnut Wood":"5",
+            "Tin":"5",
+            "Gold":"5",
+            "Bombu Wood":"4",
+            "Aluminite":"1"
+         },
+         "Uftoon Shovel (52)":{
+            "Maple Wood":"6",
+            "Tin":"5",
+            "Bauxite":"5",
+            "Walnut Wood":"4",
+            "Gold":"3",
+            "Ebonite":"2"
+         },
+         "Cruel Trovel (53)":{
+            "Copper":"12",
+            "Cobalt":"10",
+            "Chestnut Wood":"5",
+            "Cherry Wood":"4",
+            "Bombu Wood":"4",
+            "Ebonite":"1"
+         },
+         "Zebuth Shovel (55)":{
+            "Chestnut Wood":"12",
+            "Maple Wood":"8",
+            "Walnut Wood":"8",
+            "Copper":"5",
+            "Ebonite":"1",
+            "Aluminite":"1"
+         },
+         "Security Shovel (60)":{
+            "Oak Wood":"6",
+            "Ebony Wood":"6",
+            "Ash Wood":"6",
+            "Hornbeam Wood":"6",
+            "Ebonite":"1",
+            "Aluminite":"1"
+         },
+         "Shovel Minster (70)":{
+            "Plain Pikoko Wing":"21",
+            "Tin":"16",
+            "Walnut Wood":"14",
+            "Kurasso Petal":"5",
+            "Barbrossa's Ridiculous Beard":"3",
+            "Coralator Fabric":"1"
+         },
+         "Truffle Shovel (71)":{
+            "Slice of Trunknid":"10",
+            "Cherry Wood":"10",
+            "Ebonite":"5",
+            "Kouartz":"4",
+            "Crystal":"2",
+            "Dark Treechnid Amber":"1"
+         },
+         "Axel (72)":{
+            "Bauxite":"20",
+            "Ebony Wood":"10",
+            "Gold":"10",
+            "Trunknid Wood":"10",
+            "Crystal":"5",
+            "Emerald":"2"
+         }
+      },
+      "7":{
+         "The Fat Shovel (80)":{
+            "Ebony Wood":"10",
+            "Tin":"10",
+            "Silver":"10",
+            "Spark Potion":"5",
+            "Blaze Potion":"5",
+            "Wildfire Potion":"5",
+            "Elm Wood":"1"
+         },
+         "Vaidaire Shovel (84)":{
+            "Treechnid Bark":"30",
+            "Treechnid Root":"30",
+            "Kokokonut Palm Trunk":"15",
+            "Yew Wood":"15",
+            "Sapphire":"2",
+            "Ruby":"1",
+            "Treechnid Amber":"1"
+         },
+         "Helabete Shovel (87)":{
+            "Ebony Wood":"15",
+            "Oliviolet Wood":"15",
+            "Slice of Trunknid":"10",
+            "Kouartz":"7",
+            "Kriptonite":"4",
+            "Crystal":"2",
+            "Diamond":"2"
+         },
+         "Mairhe Shovel (88)":{
+            "Kokokonut Palm Trunk":"25",
+            "Yew Wood":"9",
+            "Magnesite":"5",
+            "Kouartz":"4",
+            "Bakelelite":"2",
+            "Crystal":"2",
+            "Dark Treechnid Bark":"2"
+         },
+         "Travel Shovel (88)":{
+            "Kokokonut Palm Trunk":"10",
+            "Elm Wood":"9",
+            "Kouartz":"3",
+            "Kobalite":"2",
+            "Sapphire":"2",
+            "Kriptonite":"2",
+            "Emerald":"1"
+         },
+         "Hebuse Shovel (94)":{
+            "Yew Wood":"12",
+            "Cherry Wood":"12",
+            "Kriptonite":"2",
+            "Ebonite":"2",
+            "Aluminite":"2",
+            "Ruby":"1",
+            "Crystal":"1"
+         },
+         "Shovel Ijah (115)":{
+            "Polished Stone Fragment":"19",
+            "Kaliptus Wood":"15",
+            "Ebonite":"6",
+            "Kriptonite":"5",
+            "Sapphire":"5",
+            "Koalak Mummy Ulna":"3",
+            "Legendary Crackler Rock":"3"
+         }
+      },
+      "8":{
+         "Dark Miner Shovel (120)":{
+            "Ebony Wood":"25",
+            "Kobalite":"10",
+            "Kouartz":"10",
+            "Kriptonite":"10",
+            "Dark Treechnid Amber":"5",
+            "Emerald":"2",
+            "Ruby":"2",
+            "Strange Ore":"1"
+         },
+         "Hikule Shovel (121)":{
+            "Trunknid Wood":"20",
+            "Elm Wood":"16",
+            "Bakelelite":"15",
+            "Kouartz":"10",
+            "Kobalite":"9",
+            "Emerald":"3",
+            "Diamond":"3",
+            "Crystal":"2"
+         },
+         "Dreggon Shovel (127)":{
+            "Kaniger Nail":"50",
+            "Fisheralak Bone":"40",
+            "Magnesite":"10",
+            "Golden Dragoss Shell":"4",
+            "Magic Bamboo Wood":"4",
+            "Brassic":"3",
+            "Yokai Firefoux Ghost Bone":"2",
+            "Golden Dragoss Horn":"1"
+         },
+         "Alani Shovel (131)":{
+            "Bambooto Amber":"22",
+            "Pointed Stone Fragment":"17",
+            "Kaliptus Wood":"16",
+            "Koalak Gravedigger Shinbone":"11",
+            "Trunknid Brows":"10",
+            "Kouartz":"6",
+            "Golden Scarabugly Carapace":"5",
+            "Pandulum Ghost Bone":"3"
+         },
+         "Shovel Shattkitou (137)":{
+            "Polished Brain Fragment":"48",
+            "Mufafah Moustache":"29",
+            "Barbrossa's Shirt":"27",
+            "Cherry Wood":"19",
+            "Dark Pikoko Nut":"5",
+            "Emerald":"3",
+            "Miremop Double Chin":"3",
+            "Greater Bherb Skin":"1"
+         },
+         "Splitting Shovel (142)":{
+            "Holy Bamboo Wood":"15",
+            "Brassic":"8",
+            "Pyrute":"7",
+            "Agathe":"4",
+            "Golden Bamboo Wood":"4",
+            "Topaz":"3",
+            "Aquamarine":"3",
+            "Pandora Ghost Bone":"1"
+         },
+         "Shovel Tonjon (147)":{
+            "Retspan Pirate Tooth":"6",
+            "Yuara Pirate Oil":"5",
+            "Retspan Pirate Mast":"29",
+            "Talklyka Pirate Claw":"39",
+            "Yuara Pirate Shell":"35",
+            "Buck Anear Scapula":"1",
+            "Buck Anear Hair":"12",
+            "Talklyka Pirate Rope":"5"
+         },
+         "Shovel Egant (156)":{
+            "Flib's Stump":"68",
+            "Sparo's Scarf":"35",
+            "Silicate":"28",
+            "Elm Wood":"14",
+            "Preserved Bird Meat ****":"2",
+            "Kimbo's Precious Stone":"1",
+            "Scrawny Bwak":"1",
+            "The Troma":"1"
+         },
+         "Hickory Shovel (176)":{
+            "Yew Wood":"22",
+            "Polished Stone Heart":"10",
+            "Polished Ball":"8",
+            "Zoth Master's Fly":"8",
+            "Kristalite":"5",
+            "Preserved Wabbit Leg ****":"3",
+            "Mopy King Inside Out Shorts":"2",
+            "Tynril Amber":"1"
+         },
+         "Dorado Shovel (178)":{
+            "Yokai Snowfoux Wool":"49",
+            "Maho Snowfoux Wool":"44",
+            "Soryo Snowfoux Ear":"42",
+            "Yomi Snowfoux Malleolus":"38",
+            "Kami Snowfoux Incisor":"27",
+            "Tengu Snowfoux Wool":"10",
+            "Kami Snowfoux Cornea":"2",
+            "Tengu Snowfoux Leather":"1"
+         },
+         "Vetic Shovel (183)":{
+            "Serpula Volva":"31",
+            "Fistulina Volva":"30",
+            "Fungore Gill":"28",
+            "Korriander Foot":"10",
+            "Fistulina Ear":"5",
+            "Fungore Peduncle":"4",
+            "Serpula Peduncle":"2",
+            "Korriander Eye":"1"
+         },
+         "Professor Xa's Shovel (191)":{
+            "Treecherous Bark":"46",
+            "Gluttonous Brockhard Tail":"42",
+            "Venomous Brockhard Scapula":"18",
+            "Kolosso Claw":"11",
+            "Fistulina Ear":"9",
+            "Gluttonous Brockhard Manubrium":"7",
+            "Venomous Brockhard Tail":"3",
+            "Kolosso Fabric":"1"
+         },
+         "Shovel Emlaka (191)":{
+            "Kilibriss Staff":"26",
+            "Dark Treeckler's Achilles' Heel":"10",
+            "Luigie Mushroom":"10",
+            "Zoth Disciple's Kneecap":"9",
+            "Zoth Warrior Shinbone":"8",
+            "Skeunk Hair":"4",
+            "Mane in Bloom":"3",
+            "Carnivorous Staff":"1"
+         },
+         "Elven Shovel (197)":{
+            "Mellifluous Bearbarian Tail":"43",
+            "Vespal Bearbarian Antenna":"32",
+            "Apewicubic Bearbarian Ear":"28",
+            "Esurient Bearbarian Incisor":"20",
+            "Celestial Bearbarian Tail":"9",
+            "Apewicubic Bearbarian Vomer":"6",
+            "Esurient Bearbarian Fabric":"3",
+            "Celestial Bearbarian Hamate":"1"
+         }
+      }
+   }
+}

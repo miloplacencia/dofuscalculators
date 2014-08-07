@@ -1,0 +1,307 @@
+{
+   "Butcher":{
+      "1":{},
+      "2":{
+         "Gumplets":{
+            "Frying Oil":1,
+            "Preserved Bird Meat":1
+         },
+         "Gumplets **":{
+            "Frying Oil":7,
+            "Preserved Bird Meat **":1
+         },
+         "Gumplets ****":{
+            "Frying Oil":4,
+            "Preserved Bird Meat ****":1
+         },
+         "Salted Larva":{
+            "Salt Measure":1,
+            "Preserved Larva Flesh":1
+         },
+         "Salted Larva **":{
+            "Salt Measure":2,
+            "Preserved Larva Flesh **":1
+         },
+         "Salted Larva ***":{
+            "Salt Measure":3,
+            "Preserved Larva Flesh ***":1
+         }
+      },
+      "3":{
+         "Cooked Ham":{
+            "Salad":1,
+            "Pepper Measure":2,
+            "Preserved Pork Loin":1
+         },
+         "Cooked Ham **":{
+            "Salad":3,
+            "Pepper Measure":3,
+            "Preserved Pork Loin **":1
+         },
+         "Cooked Ham ***":{
+            "Salad":5,
+            "Pepper Measure":4,
+            "Preserved Pork Loin ***":1
+         },
+         "Cooked Ham ****":{
+            "Salad":8,
+            "Pepper Measure":5,
+            "Preserved Pork Loin ****":1
+         },
+         "Insect Croquette":{
+            "Salt Measure":2,
+            "Water":1,
+            "Preserved Insect Flesh":1
+         },
+         "Insect Croquette **":{
+            "Salt Measure":5,
+            "Gobball Slobber":3,
+            "Preserved Insect Flesh **":1
+         },
+         "Roast Gobball Leg":{
+            "Frying Oil":1,
+            "Dose of Tasty Juice":1,
+            "Preserved Gobball Leg":1
+         },
+         "Roast Gobball Leg **":{
+            "Frying Oil":2,
+            "Dose of Tasty Juice":2,
+            "Preserved Gobball Leg **":1
+         },
+         "Roast Gobball Leg ***":{
+            "Frying Oil":3,
+            "Dose of Tasty Juice":3,
+            "Preserved Gobball Leg ***":1
+         },
+         "Roast Gobball Leg ****":{
+            "Frying Oil":4,
+            "Dose of Tasty Juice":4,
+            "Preserved Gobball Leg ****":1
+         }
+      },
+      "4":{
+         "Dragomeat Steak":{
+            "Salt Measure":4,
+            "Dose of Tasty Juice":4,
+            "Onion":4,
+            "Preserved Dragomeat":1
+         },
+         "Dragomeat Steak **":{
+            "Salt Measure":5,
+            "Dose of Tasty Juice":5,
+            "Onion":5,
+            "Preserved Dragomeat **":1
+         },
+         "Dragomeat Steak ***":{
+            "Salt Measure":5,
+            "Dose of Tasty Juice":5,
+            "Onion":5,
+            "Preserved Dragomeat ***":1
+         },
+         "Dragomeat Steak ****":{
+            "Salt Measure":6,
+            "Dose of Tasty Juice":6,
+            "Onion":6,
+            "Preserved Dragomeat ****":1
+         },
+         "Gwilled Wabbit":{
+            "Frying Oil":4,
+            "Pepper Measure":2,
+            "Spices":2,
+            "Preserved Wabbit Leg":1
+         },
+         "Gwilled Wabbit **":{
+            "Frying Oil":5,
+            "Pepper Measure":3,
+            "Spices":2,
+            "Preserved Wabbit Leg **":1
+         },
+         "Gwilled Wabbit ***":{
+            "Frying Oil":6,
+            "Pepper Measure":3,
+            "Spices":3,
+            "Preserved Wabbit Leg ***":1
+         },
+         "Gwilled Wabbit ****":{
+            "Frying Oil":7,
+            "Pepper Measure":5,
+            "Spices":5,
+            "Preserved Wabbit Leg ****":1
+         }
+      },
+      "5":{
+         "Brawn Salad":{
+            "Salt Measure":2,
+            "Pepper Measure":2,
+            "Hazelnut":1,
+            "Water":2,
+            "Preserved Muzzle *":1
+         },
+         "Brawn Salad **":{
+            "Salt Measure":4,
+            "Pepper Measure":4,
+            "Hazelnut":3,
+            "Water":2,
+            "Preserved Muzzle **":1
+         },
+         "Brawn Salad ***":{
+            "Salt Measure":6,
+            "Pepper Measure":6,
+            "Hazelnut":4,
+            "Water":2,
+            "Preserved Muzzle ***":1
+         }
+      },
+      "6":{
+         "Kaniger Steak":{
+            "Salt Measure":1,
+            "Pepper Measure":1,
+            "Salad":1,
+            "Water":1,
+            "Frying Oil":1,
+            "Preserved Kaniger Meat":1
+         }
+      },
+      "7":{
+         "Crocodyl Steak":{
+            "Salt Measure":1,
+            "Pepper Measure":1,
+            "Salad":1,
+            "Water":1,
+            "Dose of Tasty Juice":1,
+            "Frying Oil":1,
+            "Preserved Crocodyl Meat":1
+         },
+         "Imperial Pat\u00e9":{
+            "Preserved Stunted Rat Meat":1,
+            "Preserved Woolly Bow Meow Meat":1,
+            "Preserved Crabeye Meat":1,
+            "Onion":1,
+            "Frying Oil":1,
+            "Salad":1,
+            "Preserved Gullipop Meat":1
+         },
+         "Koalak Steak":{
+            "Salt Measure":1,
+            "Spices":1,
+            "Salad":1,
+            "Water":1,
+            "Dose of Tasty Juice":1,
+            "Frying Oil":1,
+            "Preserved Koalak Meat":1
+         }
+      },
+      "8":{
+         "Roast Mastogob Leg":{
+            "Frying Oil":1,
+            "Dose of Tasty Juice":1,
+            "Salt Measure":1,
+            "Onion":1,
+            "Water":1,
+            "Preserved Mastogob Leg":1,
+            "Spices":1,
+            "Pepper Measure":1
+         },
+         "Grilled Pingwin Flesh":{
+            "Preserved Pingwin Flesh":1,
+            "Dose of Tasty Juice":1,
+            "Water":1,
+            "Lemon":1,
+            "Pepper Measure":1,
+            "Spices":1,
+            "Onion":1,
+            "Frying Oil":1
+         },
+         "Cooked Cube of Meat":{
+            "Water":1,
+            "Onion":1,
+            "Dose of Tasty Juice":1,
+            "Frying Oil":1,
+            "Salad":1,
+            "Preserved Cube of Meat":1,
+            "Pepper Measure":1,
+            "Spices":1
+         },
+         "Roast Royal Mastogob Leg":{
+            "Frying Oil":2,
+            "Dose of Tasty Juice":2,
+            "Salt Measure":2,
+            "Onion":2,
+            "Water":2,
+            "Preserved Royal Mastogob Leg":2,
+            "Spices":2,
+            "Pepper Measure":2
+         },
+         "Grilled Royal Pingwin Flesh":{
+            "Preserved Royal Pingwin Flesh":1,
+            "Dose of Tasty Juice":2,
+            "Water":2,
+            "Lemon":2,
+            "Pepper Measure":2,
+            "Spices":2,
+            "Onion":2,
+            "Frying Oil":2
+         },
+         "Smoked Bearbarian Breast":{
+            "Pepper Measure":1,
+            "Preserved Bearbarian Breast":1,
+            "Dose of Tasty Juice":1,
+            "Cherry":1,
+            "Frying Oil":1,
+            "Water":1,
+            "Onion":1,
+            "Spices":1
+         },
+         "Smoked Celestial Bearbarian Breast":{
+            "Pepper Measure":2,
+            "Preserved Celestial Bearbarian Breast":1,
+            "Dose of Tasty Juice":2,
+            "Cherry":2,
+            "Frying Oil":2,
+            "Water":2,
+            "Onion":2,
+            "Spices":2
+         },
+         "Brockhard Flank Steak with Frosteez":{
+            "Pepper Measure":1,
+            "Preserved Brockhard Flank Steak":1,
+            "Dose of Tasty Juice":1,
+            "Cherry":1,
+            "Frying Oil":1,
+            "Water":1,
+            "Onion":1,
+            "Spices":1
+         },
+         "Professor Xa Flank Steak with Frosteez":{
+            "Pepper Measure":2,
+            "Preserved Professor Xa Flank Steak":1,
+            "Dose of Tasty Juice":2,
+            "Cherry":2,
+            "Frying Oil":2,
+            "Water":2,
+            "Onion":2,
+            "Spices":2
+         },
+         "Tengu Snowfoux Steak":{
+            "Spices":2,
+            "Cherry":2,
+            "Water":2,
+            "Dose of Tasty Juice":2,
+            "Onion":2,
+            "Frying Oil":2,
+            "Preserved Tengu Snowfoux Meat":1,
+            "Pepper Measure":2
+         },
+         "Snowfoux Steak":{
+            "Spices":1,
+            "Cherry":1,
+            "Water":1,
+            "Dose of Tasty Juice":1,
+            "Onion":1,
+            "Frying Oil":1,
+            "Preserved Snowfoux Meat":1,
+            "Pepper Measure":1
+         }
+      }
+   }
+}

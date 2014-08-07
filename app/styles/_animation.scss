@@ -1,0 +1,135 @@
+@-webkit-keyframes tembleque {
+  0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+  10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+  30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+  40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+  50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+  70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+  80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+  90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+  100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
+@-moz-keyframes tembleque {
+  0% { -moz-transform: translate(2px, 1px) rotate(0deg); }
+  10% { -moz-transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { -moz-transform: translate(-3px, 0px) rotate(1deg); }
+  30% { -moz-transform: translate(0px, 2px) rotate(0deg); }
+  40% { -moz-transform: translate(1px, -1px) rotate(1deg); }
+  50% { -moz-transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { -moz-transform: translate(-3px, 1px) rotate(0deg); }
+  70% { -moz-transform: translate(2px, 1px) rotate(-1deg); }
+  80% { -moz-transform: translate(-1px, -1px) rotate(1deg); }
+  90% { -moz-transform: translate(2px, 2px) rotate(0deg); }
+  100% { -moz-transform: translate(1px, -2px) rotate(-1deg); }
+}
+@-ms-keyframes tembleque {
+  0% { -ms-transform: translate(2px, 1px) rotate(0deg); }
+  10% { -ms-transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { -ms-transform: translate(-3px, 0px) rotate(1deg); }
+  30% { -ms-transform: translate(0px, 2px) rotate(0deg); }
+  40% { -ms-transform: translate(1px, -1px) rotate(1deg); }
+  50% { -ms-transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { -ms-transform: translate(-3px, 1px) rotate(0deg); }
+  70% { -ms-transform: translate(2px, 1px) rotate(-1deg); }
+  80% { -ms-transform: translate(-1px, -1px) rotate(1deg); }
+  90% { -ms-transform: translate(2px, 2px) rotate(0deg); }
+  100% { -ms-transform: translate(1px, -2px) rotate(-1deg); }
+}
+@-o-keyframes tembleque {
+  0% { -o-transform: translate(2px, 1px) rotate(0deg); }
+  10% { -o-transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { -o-transform: translate(-3px, 0px) rotate(1deg); }
+  30% { -o-transform: translate(0px, 2px) rotate(0deg); }
+  40% { -o-transform: translate(1px, -1px) rotate(1deg); }
+  50% { -o-transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { -o-transform: translate(-3px, 1px) rotate(0deg); }
+  70% { -o-transform: translate(2px, 1px) rotate(-1deg); }
+  80% { -o-transform: translate(-1px, -1px) rotate(1deg); }
+  90% { -o-transform: translate(2px, 2px) rotate(0deg); }
+  100% { -o-transform: translate(1px, -2px) rotate(-1deg); }
+}
+@-webkit-keyframes shake {
+  0%, 100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+}
+@-moz-keyframes shake {
+  0%, 100% {
+    -moz-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    -moz-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+
+  20%, 40%, 60%, 80% {
+    -moz-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+}
+@-ms-keyframes shake {
+  0%, 100% {
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    -ms-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+
+  20%, 40%, 60%, 80% {
+    -ms-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+}
+@-o-keyframes shake {
+  0%, 100% {
+    -o-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    -o-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+
+  20%, 40%, 60%, 80% {
+    -o-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+}
+@keyframes shake {
+  0%, 100% {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translateX(-10px);
+    -ms-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    transform: translateX(10px);
+  }
+}

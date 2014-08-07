@@ -1,0 +1,84 @@
+{
+	"ingredients" : {
+		"Temporal Powder"	: {
+			"price": 2,
+			"pods" : 1
+		},
+		"Jelly Blubber"		: {
+			"price": 5,
+			"pods" : 1
+		},
+		"Scurvion Blood"	: {
+			"price": 5,
+			"pods" : 1
+		},
+		"Treechnid Resin"	: {
+			"price": 10,
+			"pods" : 1
+		},
+		"Biblop Blubber"	: {
+			"price": 5,
+			"pods" : 1
+		},
+		"Water" 			: {
+			"price": 1,
+			"pods" : 1
+		},
+		"Palm Oil"			: {
+			"price": 0,
+			"pods" : 1
+		},
+		"Still Water" 		: {
+			"price": 0,
+			"pods" : 1
+		},
+		"Snowdrop"			: {
+			"price": 0,
+			"pods" : 1
+		},
+		"Frosteez Oil"		: {
+			"price": 0,
+			"pods" : 1
+		},
+		"Salt Measure"		: {
+			"price": 1,
+			"pods" : 1
+		},
+		"Frying Oil"		: {
+			"price": 2,
+			"pods" : 2
+		},
+		"Salad"				: {
+			"price": 0,
+			"pods" : 1
+		},
+		"Pepper Measure"	: {
+			"price": 5,
+			"pods" : 1
+		},
+		"Gobball Saliva"	: {
+			"price": 0,
+			"pods" : 1
+		},
+		"Dose of Tasty Juice" : {
+			"price": 4,
+			"pods" : 1
+		},
+		"Onion"				: {
+			"price": 6,
+			"pods" : 1
+		},
+		"Spices"			: {
+			"price": 10,
+			"pods" : 1
+		},
+		"Hazelnut"			: {
+			"price": 0,
+			"pods" : 1
+		},
+		"Lemon"				: {
+			"price": 2,
+			"pods" : 1
+		}
+	}
+}

@@ -1,0 +1,21 @@
+ <div 
+ 	ng-repeat="(receta, ingredientes) in recipes"
+ 	id="Recipe{{ receta | noSpace }}" 
+ 	class="recipe"
+ 	ng-show="!results.slots[slots].search || (results.slots[slots].search && receta.toLowerCase().indexOf(results.slots[slots].search.toLowerCase())!==-1)">
+	<div class="titleRecipe" ng-click="results.slots[slots].recipes[receta].toggleCalcRecipe()">
+	    <span 
+	    	class="icon-eye calcRecipe" 
+	    	rel="Calculate Amounts" 
+	    	ng-class="{check:results.slots[slots].recipes[receta].calcRecipe}"></span>
+	    <strong>{{receta}}</strong>
+	</div><!-- end .titleRecipe -->
+	<div class="ingredientes" ng-if="results.slots[slots].recipes[receta].calcRecipe">
+	    <span ng-repeat="(ingrediente, cantidad) in ingredientes">
+	        <span class="ingredName">{{ingrediente}}</span> x 
+	        <span class="ingredQuantity" ng-class="{check:results.slots[slots].recipes[receta].calcRecipe}">
+	        	{{ results.slots[slots].cantidad * cantidad | number }}
+	        </span>
+	    </span> 
+	</div><!--end .ingredientes-->
+</div><!--end .recipe-->

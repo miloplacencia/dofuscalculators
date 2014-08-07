@@ -1,0 +1,57 @@
+$phi: 1.61803398875;
+$maxWidthSite:70em;
+$doradoGrande:61.8033989%;
+$doradoChico: 38.1966011%;
+$padding:0 1em;
+
+* {
+  @include box;
+}
+body,html {
+  height:100%;
+  overflow:hidden;
+}
+.contenedorIndex {
+  width:100%;
+  height:100%;
+  position:relative;
+  overflow:hidden;
+}
+.contenido {
+  padding-top:65px;
+  width:100%;
+  margin:0;
+  height:inherit;
+  position:relative;
+  overflow:auto;
+  -webkit-overflow-scrolling: touch;
+}
+.fila {
+  width:$maxWidthSite;
+  max-width:100%;
+  padding:$padding;
+  @extend .clearfix;
+  margin:0 auto;
+}
+.dorado {
+  width:100%;
+  float:left;
+  &.chico {
+    width:$doradoChico;
+  }
+  &.grande {
+    width:$doradoGrande;
+  }
+  &.chico,&.grande {
+    padding:$padding;
+    @include quiebres(760)
+    {
+      width:100%;
+      float:none;
+      padding:0 0 1em;
+    }
+  }
+}
+.profesiones {
+  @extend .clearfix;
+}

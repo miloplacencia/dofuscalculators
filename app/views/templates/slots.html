@@ -1,0 +1,11 @@
+<div 
+    class="slotTitle" 
+    ng-click="toggleDesplegar()"
+    ng-class="{ 
+    	blocked:results.slots[slots].bloqueado,
+    	useless:results.slots[slots].inutil
+    }">
+    <span class="icon-fontawesome-webfont-1 arrow"></span>
+    <strong>{{ slots }} slot</strong>
+    <span>need {{ results.slots[slots].cantidad | number }} crafts</span>
+</div>

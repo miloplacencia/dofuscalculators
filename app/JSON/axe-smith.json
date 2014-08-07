@@ -1,0 +1,486 @@
+{
+   "Axe-Smith":{
+      "1":[
+
+      ],
+      "2":{
+         "Lumberjack Axe (1)":{
+            "Ash Wood":"2",
+            "Iron":"1"
+         },
+         "Hemal Axe (1)":{
+            "Iron":"3",
+            "Oak Wood":"3"
+         },
+         "Lumberjack Hatchet (3)":{
+            "Chestnut Wood":"3",
+            "Iron":"1"
+         },
+         "Hevlalav Hatchet (6)":{
+            "Copper":"3",
+            "Walnut Wood":"1"
+         },
+         "Arachnee Cutter (8)":{
+            "Arachnee Leg":"5",
+            "Coal":"1"
+         },
+         "Ash Tree Eater (8)":{
+            "Iron":"4",
+            "Ash Wood":"4"
+         },
+         "Chestnut Tree Eater (8)":{
+            "Iron":"5",
+            "Ash Wood":"3"
+         }
+      },
+      "3":{
+         "Vor'Om Axe (12)":{
+            "Iron":"5",
+            "Walnut Wood":"3",
+            "Bronze":"1"
+         },
+         "Yew Axe (17)":{
+            "Cobalt":"5",
+            "Oak Wood":"3",
+            "Walnut Wood":"3"
+         }
+      },
+      "4":{
+         "Terophyle Axe (15)":{
+            "Bauxite":"3",
+            "Cobalt":"6",
+            "Oak Wood":"3",
+            "Walnut Wood":"3"
+         },
+         "Walnut Cutter (21)":{
+            "Oak Wood":"7",
+            "Bronze":"5",
+            "Walnut Wood":"4",
+            "Chestnut Wood":"4"
+         },
+         "Maple Tree Eater (25)":{
+            "Oak Wood":"10",
+            "Ash Wood":"5",
+            "Walnut Wood":"4",
+            "Cobalt":"4"
+         },
+         "Bamboo Slayer (26)":{
+            "Ash Wood":"15",
+            "Bamboo Wood":"4",
+            "Bakelelite":"1",
+            "Aluminite":"1"
+         },
+         "Agride (27)":{
+            "Chestnut Wood":"15",
+            "Ash Wood":"13",
+            "Copper":"10",
+            "Oak Wood":"3"
+         },
+         "Jon Lemon (28)":{
+            "Ash Wood":"10",
+            "Chestnut Wood":"10",
+            "Copper":"20",
+            "Hornbeam Wood":"2"
+         },
+         "Huvant Axe (35)":{
+            "Bauxite":"2",
+            "Ebony Wood":"6",
+            "Hornbeam Wood":"3",
+            "Silver":"8"
+         }
+      },
+      "5":{
+         "Samuel J. Axe (22)":{
+            "Manganese":"9",
+            "Maple Wood":"5",
+            "Oak Wood":"8",
+            "Tin":"3",
+            "Yew Wood":"1"
+         },
+         "Cherry Splitter (32)":{
+            "Maple Wood":"9",
+            "Tin":"4",
+            "Oak Wood":"4",
+            "Yew Wood":"4",
+            "Manganese":"4"
+         },
+         "Oak Killer (33)":{
+            "Ebony Wood":"4",
+            "Cherry Wood":"4",
+            "Hornbeam Wood":"2",
+            "Bauxite":"2",
+            "Silver":"2"
+         },
+         "Shodanwa Axe (36)":{
+            "Bamboo Wood":"5",
+            "Bulbush Root":"3",
+            "Bambooto Wood":"2",
+            "Bulbamboo Root":"2",
+            "Aluminite":"1"
+         },
+         "Bombu Cutter (39)":{
+            "Bronze":"5",
+            "Bombu Wood":"3",
+            "Ebony Wood":"2",
+            "Silver":"1",
+            "Walnut Wood":"1"
+         },
+         "Oliviolet Pruner (42)":{
+            "Tin":"3",
+            "Oliviolet Wood":"3",
+            "Yew Wood":"2",
+            "Cobalt":"2",
+            "Silver":"1"
+         },
+         "Charm Pruner (47)":{
+            "Yew Wood":"9",
+            "Tin":"5",
+            "Hornbeam Wood":"4",
+            "Ebony Wood":"4",
+            "Gold":"4"
+         },
+         "Purrin Axe (62)":{
+            "Kurasso Bulb":"4",
+            "Passaoh Bulb":"4",
+            "Mojeeto Bulb":"4",
+            "Mahlibuh Bulb":"4",
+            "The Claw":"1"
+         }
+      },
+      "6":{
+         "Stone Axe (51)":{
+            "Polished Stone Fragment":"10",
+            "Granite Stone":"10",
+            "Cherry Wood":"8",
+            "Crackler Stone":"7",
+            "Maple Wood":"6",
+            "Pointed Stone Fragment":"4"
+         },
+         "Crack Axe (54)":{
+            "Iron":"5",
+            "Bronze":"5",
+            "Oliviolet Wood":"3",
+            "Yew Wood":"3",
+            "Ebony Wood":"3",
+            "Broken Spear":"1"
+         },
+         "Darsson's axe (57)":{
+            "Oliviolet Wood":"5",
+            "Ebony Wood":"5",
+            "Silver":"5",
+            "Cherry Wood":"5",
+            "Cobalt":"5",
+            "Manganese":"3"
+         },
+         "Nidanwa Axe (59)":{
+            "Bamboo Wood":"15",
+            "Bambooto Wood":"10",
+            "Dark Bamboo Wood":"10",
+            "Bulbiflor Root":"3",
+            "Pyrute":"1",
+            "Brassic":"1"
+         },
+         "Boulgourde of the Glades (62)":{
+            "Gold":"10",
+            "Ebony Wood":"5",
+            "Cherry Wood":"5",
+            "Elm Wood":"5",
+            "Hornbeam Wood":"5",
+            "Amber":"1"
+         },
+         "Limb Chopper (66)":{
+            "Gold":"10",
+            "Hornbeam Wood":"10",
+            "Bombu Wood":"6",
+            "Copper":"5",
+            "Bauxite":"5",
+            "Ivory":"2"
+         },
+         "Whistle Cutter (66)":{
+            "Oliviolet Wood":"5",
+            "Gold":"4",
+            "Bauxite":"4",
+            "Whetstone":"1",
+            "Crystal Stone":"1",
+            "Elm Wood":"1"
+         },
+         "Militiaman Bardiche (78)":{
+            "Yew Wood":"10",
+            "Gold":"10",
+            "Ebony Wood":"8",
+            "Elm Wood":"2",
+            "Broken Trident":"1",
+            "Sapphire":"1"
+         },
+         "Koss Axe (80)":{
+            "Bwork Epaulette":"20",
+            "Oliviolet Wood":"15",
+            "Ebonite":"5",
+            "Kilibriss Staff":"3",
+            "Polished Ball":"1",
+            "Gourlo's Explosive Powder":"1"
+         }
+      },
+      "7":{
+         "Treechnid Splitter (74)":{
+            "Bauxite":"10",
+            "Cherry Wood":"5",
+            "Hornbeam Wood":"5",
+            "Gold":"5",
+            "Ebony Wood":"5",
+            "Bewitched Wood":"1",
+            "Emerald":"1"
+         },
+         "Clever Hatchet (81)":{
+            "Iron":"12",
+            "Elm Wood":"10",
+            "Chestnut Wood":"10",
+            "Oak Wood":"10",
+            "Emerald Stone":"1",
+            "Red Mage Metaria":"1",
+            "Crystal":"1"
+         },
+         "Terrdala Axe (83)":{
+            "Earth Pandawushu Artefact":"50",
+            "Bamboo Wood":"20",
+            "Dark Bamboo":"15",
+            "Brassic":"2",
+            "Pyrute":"2",
+            "Agathe":"1",
+            "Golden Bamboo Wood":"1"
+         },
+         "Sandanwa Axe (83)":{
+            "Dark Bamboo Wood":"15",
+            "Bulbamboo Root":"6",
+            "Pyrute":"6",
+            "Bulbush Root":"5",
+            "Brassic":"5",
+            "Agathe":"4",
+            "Magic Bamboo Wood":"4"
+         },
+         "Pole Axe (84)":{
+            "Silver":"10",
+            "Oliviolet Wood":"5",
+            "Bamboo":"5",
+            "Elm Wood":"5",
+            "Yew Wood":"5",
+            "Sapphire":"1",
+            "Broken Spear":"1"
+         },
+         "Pesc Axe (87)":{
+            "Yew Wood":"10",
+            "Manganese":"10",
+            "Bauxite":"10",
+            "Oliviolet Wood":"10",
+            "Sickle-Hammerhead Shark":"5",
+            "Crystal":"1",
+            "Broken Trident":"1"
+         },
+         "Dame Zel Axe (90)":{
+            "Bamboo Wood":"10",
+            "Ebony Wood":"10",
+            "Oliviolet Wood":"10",
+            "Silver":"10",
+            "Cherry Wood":"10",
+            "Elm Wood":"10",
+            "Ruby":"1"
+         },
+         "Lookabeer Axe (96)":{
+            "Bronze":"10",
+            "Elm Wood":"10",
+            "Gold":"10",
+            "Maple Wood":"5",
+            "Copper":"5",
+            "Bamboo Wood":"5",
+            "Oliviolet Wood":"5"
+         },
+         "Yondanwa Axe (98)":{
+            "Bamboo Wood":"17",
+            "Holy Bamboo Wood":"7",
+            "Pyrute":"6",
+            "Brassic":"5",
+            "Golden Bamboo Wood":"3",
+            "Agathe":"3",
+            "Aquamarine":"1"
+         },
+         "Bards' Hall (99)":{
+            "Bombu Wood":"10",
+            "Manganese":"10",
+            "Oliviolet Wood":"10",
+            "Diamond":"1",
+            "Ruby":"1",
+            "Crystal":"1",
+            "Ancestral Wood":"1"
+         },
+         "Minotoror Axe (109)":{
+            "Treechnid Bark":"25",
+            "Dark Treechnid Bark":"24",
+            "Kaliptus Wood":"16",
+            "Fisheralak Bone":"13",
+            "Koalak Gravedigger Shinbone":"12",
+            "Kouartz":"11",
+            "Deminoball Horn":"1"
+         },
+         "The Warf Axe (112)":{
+            "Bakelelite":"11",
+            "Kaliptus Wood":"11",
+            "Pyrute":"10",
+            "Holy Bambooto Amber":"10",
+            "Ruby":"8",
+            "Wild Koalak Femur":"3",
+            "Tanukou\u00ef San Ghost Bone":"1"
+         },
+         "Axe of Lies (116)":{
+            "Trunknid Wood Wedge":"20",
+            "Oliviolet Wood":"15",
+            "Kaliptus Wood":"11",
+            "Mama Koalak Bone":"9",
+            "Brassic":"8",
+            "Aquamarine":"1",
+            "Yokai Firefoux Ghost Bone":"1"
+         }
+      },
+      "8":{
+         "Ancestral Treechnid Splitter (93)":{
+            "Elm Wood":"10",
+            "Bauxite":"10",
+            "Treechnid Bark":"6",
+            "Hornbeam Wood":"6",
+            "Ancestral Wood":"5",
+            "Gold":"5",
+            "Treechnid Amber":"5",
+            "Sapphire":"2"
+         },
+         "Dreggon Axe (126)":{
+            "Scurvion Carapace":"21",
+            "Kaliptus Wood":"15",
+            "Sapphire":"9",
+            "Flying Dreggon Horn":"6",
+            "Black Scaraleaf Carapace":"5",
+            "Trunknid Brows":"3",
+            "Shin Larva Tooth":"1",
+            "White Dragoss Horn":"1"
+         },
+         "Kape Axe (128)":{
+            "Oliviolet Wood":"13",
+            "Kaliptus Wood":"12",
+            "Polished Stone Fragment":"11",
+            "Amber":"10",
+            "Brassic":"5",
+            "Ancestral Amber":"4",
+            "Koalak Mummy Ulna":"3",
+            "Bulbiflor Magic Bark":"1"
+         },
+         "Cheeken Axe (137)":{
+            "Cheeken Cloaca":"56",
+            "Walnut Wood":"32",
+            "Dark Pikoko Tonsils":"18",
+            "Gobball Hammer":"17",
+            "Cheeken Plait":"9",
+            "Dark Pikoko Nut":"4",
+            "Greater Bherb Eyebrows":"2",
+            "Lacerated Tynril Skin":"1"
+         },
+         "Zoth Warrior Axe (139)":{
+            "Gwass Sepal":"37",
+            "Zoth Fabric":"28",
+            "Snailmet Slobber":"18",
+            "Zoth Warrior Shinbone":"5",
+            "Gwass Bark":"3",
+            "Ga Pa Rune":"1",
+            "Tynril Bark":"1",
+            "Zoth Sergeant's Tab":"1"
+         },
+         "Talklyka Pirate Axe (153)":{
+            "Buck Anear Scapula":"1",
+            "Talklyka Pirate Rope":"5",
+            "Vigi Pirate Eye":"5",
+            "Harpy Pirate Shell":"3",
+            "Retspan Pirate Tooth":"4",
+            "Yuara Pirate Oil":"4",
+            "Talklyka Pirate Claw":"35",
+            "Buck Anear Hair":"9"
+         },
+         "Axe Cidental (154)":{
+            "Karrybean Pirate Tail":"23",
+            "Buck Anear Hair":"9",
+            "Harpy Pirate Shell":"6",
+            "Vigi Pirate Eye":"5",
+            "Karrybean Pirate Buoy":"2",
+            "Buck Anear Scapula":"1",
+            "Harpy Pirate Scale":"34",
+            "Vigi Pirate Fabric":"31"
+         },
+         "Michael Dougle Axe (158)":{
+            "Light Treeckler Stump":"65",
+            "Air Pikoko Rump":"49",
+            "Hazelnut":"35",
+            "Silicate":"15",
+            "Holy Bambooto Wood":"12",
+            "Tynril Pistil":"2",
+            "Greater Bherb Feathered Tail":"1",
+            "Clakoss":"1"
+         },
+         "Sick Axe (162)":{
+            "Warguerite Bract":"39",
+            "Manganese":"26",
+            "Kouartz":"18",
+            "Dark Treeckler's Achilles' Heel":"8",
+            "Plain Pikoko Nut":"5",
+            "Greater Bherb Eyebrows":"4",
+            "Preserved Pork Loin ****":"2",
+            "Dame Zel Axe":"1"
+         },
+         "Assinscrede Axe (170)":{
+            "Kami Snowfoux Incisor":"22",
+            "Tengu Snowfoux Wool":"7",
+            "Kami Snowfoux Cornea":"3",
+            "Soryo Snowfoux Paw":"3",
+            "Yokai Snowfoux Skull":"3",
+            "Maho Snowfoux Leather":"2",
+            "Yomi Snowfoux Tail":"2",
+            "Tengu Snowfoux Leather":"1"
+         },
+         "Canni Blade (176)":{
+            "Polished Brain Fragment":"165",
+            "Kilibriss Staff":"36",
+            "Sparo's Humerus":"33",
+            "Trumperelle Trunk":"15",
+            "Luigie Mushroom":"13",
+            "Light Treeckler Stump":"10",
+            "Cheeken Axe":"1",
+            "Scrawny Bwak":"1"
+         },
+         "Projects Axe (187)":{
+            "Treecherous Bark":"45",
+            "Dramanita Gill":"44",
+            "Serpula Volva":"24",
+            "Korriander Foot":"9",
+            "Dramanita Eye":"6",
+            "Serpula Peduncle":"3",
+            "Treecherous Root":"3",
+            "Korriander Eye":"1"
+         },
+         "Korriander Axe (188)":{
+            "Treecherous Bark":"32",
+            "Dramanita Gill":"29",
+            "Serpula Volva":"22",
+            "Korriander Foot":"11",
+            "Dramanita Eye":"5",
+            "Treecherous Root":"5",
+            "Serpula Peduncle":"3",
+            "Korriander Eye":"1"
+         },
+         "Teroid Axe (194)":{
+            "Kolosso Claw":"10",
+            "Gluttonous Brockhard Manubrium":"6",
+            "Nightcrawling Brockhard Fabric":"6",
+            "Pyrotechnic Brockhard Eye":"5",
+            "Bestial Brockhard Hair":"4",
+            "Icy Brockhard Ear":"3",
+            "Venomous Brockhard Tail":"3",
+            "Kolosso Fabric":"1"
+         }
+      }
+   }
+}

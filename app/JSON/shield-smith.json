@@ -1,0 +1,257 @@
+{
+	"Shield-Smith":{
+      "1":[
+
+      ],
+      "2":{
+         "Gobball Shield (1)":{
+            "Black Gobbly Wool":"5",
+            "Gobball Wool":"5"
+         }
+      },
+      "3":{
+         "Flying Shield (1)":{
+            "Bamboo Wood":"4",
+            "Pandikaze Skin":"3",
+            "Leopardo Skin":"1"
+         },
+         "Lumberjack Shield (1)":{
+            "Bronze":"5",
+            "Bamboo Wood":"5",
+            "Ash Wood":"5"
+         }
+      },
+      "4":{
+         "Air Dial (1)":{
+            "Golden Dreggon Shell":"3",
+            "Holy Bambooto Wood":"2",
+            "Aluminite":"1",
+            "Yew Wood":"1"
+         },
+         "Derma Tho (1)":{
+            "Ash Plank":"20",
+            "Aluminite":"4",
+            "Kitsou Nufeu Skin":"2",
+            "Kitsou Nae Skin":"2"
+         },
+         "Earth Dial (1)":{
+            "White Dreggon Shell":"3",
+            "Holy Bambooto Wood":"2",
+            "Yew Wood":"1",
+            "Aluminite":"1"
+         },
+         "Fire Dial (1)":{
+            "Black Dreggon Shell":"3",
+            "Holy Bambooto Wood":"2",
+            "Yew Wood":"1",
+            "Aluminite":"1"
+         },
+         "Water Dial (1)":{
+            "Sapphire Dreggon Shell":"3",
+            "Holy Bambooto Wood":"2",
+            "Aluminite":"1",
+            "Yew Wood":"1"
+         }
+      },
+      "5":{
+         "Akwadala Shield (1)":{
+            "Water Pandawushu Artefact":"50",
+            "Yew Wood":"5",
+            "Oliviolet Wood":"4",
+            "Blue Scaraleaf Carapace":"2",
+            "Aluminite":"1"
+         },
+         "Mount Stinkky Shield (1)":{
+            "Bamboo Wood":"10",
+            "Maple Wood":"10",
+            "Aluminite":"3",
+            "Kobalite":"3",
+            "Bulbiflor Magic Bark":"2"
+         },
+         "Pandawa Shield (1)":{
+            "Rice":"10",
+            "Dark Bamboo Wood":"2",
+            "Pandora Skin":"2",
+            "Pandikaze Hair":"2",
+            "Pandkin Seed":"1"
+         },
+         "Crackler Shield (1)":{
+            "Iron":"15",
+            "Silver":"10",
+            "Bauxite":"5",
+            "Gold":"5",
+            "Crackler Heart":"1"
+         },
+         "Treechnid Shield (1)":{
+            "Treechnid Bark":"10",
+            "Treechnid Root":"10",
+            "Ash Plank":"2",
+            "Walnut Wood":"2",
+            "Magic Bamboo Wood":"1"
+         }
+      },
+      "6":{
+         "Aerdala Shield (1)":{
+            "Air Pandawushu Artefact":"50",
+            "Ash Wood":"10",
+            "White Scaraleaf Carapace":"2",
+            "Magic Bamboo Wood":"1",
+            "Golden Bamboo Wood":"1",
+            "Ebony Wood":"1"
+         },
+         "Bawbawian Shield (1)":{
+            "Wheat":"15",
+            "Chestnut Wood":"10",
+            "Bakelelite":"10",
+            "Black Gobbly Wool":"8",
+            "Wo Wabbit Stomach":"6",
+            "Holy Bamboo Wood":"1"
+         },
+         "Bowisse's Shield (1)":{
+            "Golden Bamboo Wood":"4",
+            "Bulbiflor Root":"2",
+            "Bulbamboo Root":"2",
+            "Bulbush Root":"2",
+            "Tin":"2",
+            "Bulbig Root":"2"
+         },
+         "Heart Quarter (1)":{
+            "Almond Dragoturkey Tail":"20",
+            "Araknawa Leg":"5",
+            "Ebonite":"3",
+            "Ebony Wood":"3",
+            "Crackler Heart":"2",
+            "Glukoko Skin":"1"
+         },
+         "Sidimote Shield (1)":{
+            "Bamboo Wood":"25",
+            "Oliviolet Wood":"12",
+            "Dark Bamboo Wood":"10",
+            "Ebony Wood":"10",
+            "Magnesite":"4",
+            "Brassic":"2"
+         },
+         "Inn Shield (1)":{
+            "Cobalt":"25",
+            "Kitsou Nufeu Hair":"10",
+            "Oak Wood":"10",
+            "Kitsou Nakwa Hair":"10",
+            "Kitsou Nae Hair":"10",
+            "Kitsou Nere Hair":"10"
+         },
+         "Terrdala Shield (1)":{
+            "Earth Pandawushu Artefact":"50",
+            "Maple Wood":"10",
+            "Silver":"6",
+            "Magic Bamboo Wood":"3",
+            "Green Scaraleaf Carapace":"2",
+            "Soryo Firefoux Fabric":"1"
+         },
+         "Sharkal Shield (1)":{
+            "Gutted Shiny Sardine":"5",
+            "Gutted Lard Bass":"3",
+            "Oak Wood":"3",
+            "Silicate":"3",
+            "Gutted Sickle-Hammerhead Shark":"1",
+            "Raul Mops Skin":"1"
+         }
+      },
+      "7":{
+         "Asse Shield (1)":{
+            "Lousy Pig Leather":"12",
+            "Bakelelite":"10",
+            "Iron":"10",
+            "Bamboo Wood":"10",
+            "Kralove":"4",
+            "Treechnid Amber":"2",
+            "Soryo Firefoux Fabric":"1"
+         },
+         "Feudala Shield (1)":{
+            "Fire Pandawushu Artefact":"50",
+            "Chestnut Wood":"15",
+            "Gold Ingot":"13",
+            "Dark Bamboo Wood":"4",
+            "Red Scaraleaf Carapace":"2",
+            "Maho Firefoux Skin":"1",
+            "Elm Wood":"1"
+         },
+         "Phtalmo (1)":{
+            "Kriptonite":"10",
+            "Kaniger Eye":"10",
+            "Bamboo Wood":"10",
+            "Gobball Eye":"10",
+            "Miliboowolf Eye":"10",
+            "Gold":"2",
+            "Granite Stone":"1"
+         },
+         "Imp Shield (1)":{
+            "Bamboo Wood":"25",
+            "Dark Bamboo Wood":"20",
+            "Pyrute":"5",
+            "Kriptonite":"4",
+            "Magnesite":"3",
+            "Brassic":"2",
+            "Golden Bamboo Wood":"1"
+         },
+         "Kloome (1)":{
+            "Magical Cure":"80",
+            "Gold Crackler Tooth":"50",
+            "Dark Bamboo Wood":"10",
+            "Holy Bambooto Wood":"4",
+            "Boowolf Magic Testicles":"2",
+            "Maho Firefoux Fabric":"1",
+            "Hornbeam Wood":"1"
+         },
+         "Sadida Shield (1)":{
+            "Black Gobbly Wool":"50",
+            "Bakelelite":"10",
+            "White Flour":"10",
+            "Dark Bamboo Wood":"10",
+            "Soryo Firefoux Fabric":"10",
+            "Bulbiflor Magic Bark":"3",
+            "Bulbamboo Magic Bark":"3"
+         },
+         "Shield in Briefs (1)":{
+            "Brassic":"10",
+            "Lemon":"10",
+            "Lousy Pig Leather Briefs":"10",
+            "Manganese":"8",
+            "Bwork Archer Briefs":"2",
+            "Magic Bamboo Wood":"2",
+            "Golden Bamboo Wood":"1"
+         }
+      },
+      "8":{
+         "Amakna Captain Shield (1)":{
+            "Kriptonite":"50",
+            "Yokai Firefoux Hair":"15",
+            "Silicate":"10",
+            "Magic Redness Dye":"4",
+            "Ancestral Wood":"3",
+            "Holy Bamboo Wood":"3",
+            "Emerald":"2",
+            "Dragon Pig Leather":"1"
+         },
+         "LeChouque's Shield (1)":{
+            "Tofu Feather":"10",
+            "Kokokonut":"10",
+            "Bombu Wood":"10",
+            "Dark Bamboo Wood":"7",
+            "Dark Treechnid Bark":"4",
+            "Ebony Wood":"2",
+            "Moon Hair":"1",
+            "Diamond":"1"
+         },
+         "Fan Shield (1)":{
+            "Leopardo Skin":"51",
+            "Manganese":"30",
+            "Araknawa Leg":"10",
+            "Gold Ingot":"10",
+            "Pandikaze Fabric":"2",
+            "Maho Firefoux Fabric":"2",
+            "Cawwot":"2",
+            "Furious Trool wool":"1"
+         }
+      }
+   }
+}

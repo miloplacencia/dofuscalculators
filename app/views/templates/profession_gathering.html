@@ -1,0 +1,15 @@
+<div class="gatheringProfession dorado chico" ng-show="results.isGathering">
+    <h2>List of Resources</h2>
+    <table class="gathering">
+        <tr>
+            <th>Level</th>
+            <th>Resource</th>
+            <th>Amount</th>
+        </tr>
+        <tr ng-repeat="g in gatheringList">
+            <td>{{g.lvl}}</td>
+            <td>{{g.gather}}</td>
+            <td>{{g.exp}}</td>
+        </tr>
+    </table>
+</div><!--end .gatheringProfession.dorado.chico-->

@@ -1,0 +1,296 @@
+{
+	"Fishmonger":{
+      "1":[
+
+      ],
+      "2":{
+         "Crab Stick **":{
+            "Dose of Tasty Juice":"1",
+            "Gutted Crab Stick":"1"
+         },
+         "Crab Stick ***":{
+            "Dose of Tasty Juice":"1",
+            "Gutted Crab Stick":"2"
+         },
+         "Crab Stick ****":{
+            "Dose of Tasty Juice":"1",
+            "Gutted Exotic Crab Stick":"1"
+         },
+         "Grawn Fritters **":{
+            "Frying Oil":"1",
+            "Gutted Grawn":"1"
+         },
+         "Grawn Fritters ***":{
+            "Frying Oil":"1",
+            "Gutted Grawn":"2"
+         },
+         "Grawn Fritters ****":{
+            "Frying Oil":"1",
+            "Gutted Horror Grawn":"1"
+         },
+         "Sliced Gudgeon **":{
+            "Lemon":"1",
+            "Gutted Gudgeon":"1"
+         },
+         "Sliced Gudgeon ***":{
+            "Lemon":"1",
+            "Gutted Gudgeon":"2"
+         },
+         "Sliced Gudgeon ****":{
+            "Lemon":"1",
+            "Gutted Kiye Gudgeon":"1"
+         },
+         "Smoked Tiger Fish ****":{
+            "Lemon":"1",
+            "Gutted Tiger Fish":"1"
+         },
+         "Trout Flamb\u00e9 **":{
+            "Lemon":"2",
+            "Gutted Trout":"1"
+         },
+         "Trout Flamb\u00e9 ***":{
+            "Lemon":"3",
+            "Gutted Trout":"2"
+         },
+         "Trout flamb\u00e9 ****":{
+            "Lemon":"2",
+            "Gutted Ancestral Trout":"1"
+         }
+      },
+      "3":{
+         "Fried Breaded Fish **":{
+            "Frying Oil":"1",
+            "Dose of Tasty Juice":"1",
+            "Gutted Breaded Fish":"1"
+         },
+         "Fried Breaded Fish ***":{
+            "Frying Oil":"1",
+            "Dose of Tasty Juice":"1",
+            "Gutted Breaded Fish":"2"
+         },
+         "Fried Breaded Fish ****":{
+            "Frying Oil":"1",
+            "Dose of Tasty Juice":"1",
+            "Gutted Igloo Fish":"1"
+         },
+         "Fried Sardine **":{
+            "Lemon":"2",
+            "Frying Oil":"2",
+            "Gutted Shiny Sardine":"1"
+         },
+         "Fried Sardine ***":{
+            "Lemon":"3",
+            "Frying Oil":"2",
+            "Gutted Shiny Sardine":"2"
+         },
+         "Fried Sardine ****":{
+            "Lemon":"2",
+            "Frying Oil":"2",
+            "Gutted Dark Sardine":"1"
+         },
+         "Smoked Kittenfish **":{
+            "Lemon":"1",
+            "Salt Measure":"1",
+            "Gutted Kittenfish":"1"
+         },
+         "Smoked Kittenfish ***":{
+            "Lemon":"1",
+            "Salt Measure":"1",
+            "Gutted Kittenfish":"2"
+         }
+      },
+      "4":{
+         "Grilled Kralove **":{
+            "Lemon":"2",
+            "Frying Oil":"2",
+            "Dose of Tasty Juice":"4",
+            "Gutted Kralove":"1"
+         },
+         "Grilled Kralove ***":{
+            "Lemon":"2",
+            "Frying Oil":"4",
+            "Dose of Tasty Juice":"8",
+            "Gutted Kralove":"2"
+         },
+         "Grilled Kralove ****":{
+            "Lemon":"2",
+            "Frying Oil":"2",
+            "Dose of Tasty Juice":"4",
+            "Gutted Unique Kralove":"1"
+         },
+         "Steamed Carp **":{
+            "Lemon":"2",
+            "Salt Measure":"2",
+            "Dose of Tasty Juice":"1",
+            "Gutted Ediem Carp":"1"
+         },
+         "Steamed Carp ***":{
+            "Lemon":"2",
+            "Salt Measure":"2",
+            "Dose of Tasty Juice":"2",
+            "Gutted Ediem Carp":"2"
+         },
+         "Steamed Carp ****":{
+            "Lemon":"2",
+            "Salt Measure":"2",
+            "Dose of Tasty Juice":"1",
+            "Gutted Small Sandy Carp":"1"
+         }
+      },
+      "5":{
+         "Stuffed Pike **":{
+            "Lemon":"2",
+            "Salt Measure":"2",
+            "Dose of Tasty Juice":"2",
+            "Grawn":"2",
+            "Gutted Pike":"1"
+         },
+         "Stuffed Pike ***":{
+            "Lemon":"3",
+            "Salt Measure":"3",
+            "Dose of Tasty Juice":"3",
+            "Grawn":"3",
+            "Gutted Pike":"2"
+         },
+         "Stuffed Pike ****":{
+            "Lemon":"2",
+            "Salt Measure":"2",
+            "Dose of Tasty Juice":"2",
+            "Grawn":"2",
+            "Gutted Tupe-Halett Pike":"1"
+         }
+      },
+      "6":{
+         "Grilled Bass **":{
+            "Lemon":"2",
+            "Salt Measure":"10",
+            "Dose of Tasty Juice":"3",
+            "Salad":"1",
+            "Gutted Crab Stick":"2",
+            "Gutted Lard Bass":"1"
+         },
+         "Grilled Bass ***":{
+            "Lemon":"4",
+            "Salt Measure":"10",
+            "Dose of Tasty Juice":"4",
+            "Salad":"2",
+            "Gutted Crab Stick":"2",
+            "Gutted Lard Bass":"2"
+         },
+         "Grilled Bass ****":{
+            "Lemon":"2",
+            "Salt Measure":"10",
+            "Dose of Tasty Juice":"3",
+            "Salad":"1",
+            "Crab Stick":"2",
+            "Gutted Siktrin Bass":"1"
+         },
+         "Seared Perch":{
+            "Lemon":"4",
+            "Frying Oil":"4",
+            "Salt Measure":"4",
+            "Dose of Tasty Juice":"4",
+            "Five-Leaf Clover":"4",
+            "Gutted Perch":"1"
+         },
+         "Seared Perch ***":{
+            "Lemon":"6",
+            "Frying Oil":"6",
+            "Salt Measure":"6",
+            "Dose of Tasty Juice":"6",
+            "Five-Leaf Clover":"6",
+            "Gutted Perch":"2"
+         },
+         "Seared Perch ****":{
+            "Lemon":"4",
+            "Frying Oil":"4",
+            "Salt Measure":"4",
+            "Dose of Tasty Juice":"4",
+            "Five-Leaf Clover":"4",
+            "Gutted Kittenperch":"1"
+         },
+         "Skate Wing **":{
+            "Lemon":"4",
+            "Frying Oil":"6",
+            "Dose of Tasty Juice":"3",
+            "Onion":"2",
+            "Wild Mint Leaf":"5",
+            "Gutted Blue Skate":"1"
+         },
+         "Skate Wing ***":{
+            "Lemon":"5",
+            "Frying Oil":"8",
+            "Dose of Tasty Juice":"4",
+            "Onion":"3",
+            "Wild Mint Leaf":"7",
+            "Gutted Blue Skate":"2"
+         },
+         "Skate Wing ****":{
+            "Lemon":"4",
+            "Frying Oil":"6",
+            "Dose of Tasty Juice":"3",
+            "Onion":"2",
+            "Wild Mint Leaf":"5",
+            "Gutted Farle's Ray":"1"
+         },
+         "Snapper a la Kerub":{
+            "Dose of Tasty Juice":"4",
+            "Frying Oil":"4",
+            "Salt Measure":"4",
+            "Strawberry":"4",
+            "Gutted Magic Snapper":"1",
+            "Kerub Hair":"1"
+         },
+         "Spicy Shark ****":{
+            "Lemon":"4",
+            "Salt Measure":"6",
+            "Dose of Tasty Juice":"6",
+            "Salad":"6",
+            "Onion":"6",
+            "Gutted Open-Market Shark":"1"
+         }
+      },
+      "7":{
+         "Spicy Shark **":{
+            "Lemon":"4",
+            "Frying Oil":"4",
+            "Salt Measure":"4",
+            "Dose of Tasty Juice":"4",
+            "Onion":"4",
+            "Spices":"1",
+            "Gutted Sickle-Hammerhead Shark":"1"
+         },
+         "Spicy Shark ***":{
+            "Lemon":"6",
+            "Frying Oil":"6",
+            "Salt Measure":"6",
+            "Dose of Tasty Juice":"6",
+            "Onion":"6",
+            "Spices":"1",
+            "Gutted Sickle-Hammerhead Shark":"2"
+         }
+      },
+      "8":{
+         "Icefish Fricassee":{
+            "Pepper Measure":"1",
+            "Salad":"1",
+            "Lemon":"1",
+            "Frying Oil":"1",
+            "Salt Measure":"1",
+            "Dose of Tasty Juice":"1",
+            "Spices":"1",
+            "Gutted Icefish":"1"
+         },
+         "Frozen Icefish Fricassee":{
+            "Pepper Measure":"2",
+            "Salad":"2",
+            "Lemon":"2",
+            "Frying Oil":"2",
+            "Salt Measure":"2",
+            "Dose of Tasty Juice":"2",
+            "Spices":"2",
+            "Gutted Frozen Icefish":"1"
+         }
+      }
+   }
+}

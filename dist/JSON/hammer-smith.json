@@ -1,0 +1,751 @@
+{
+	"Hammer-Smith":{
+      "1":[
+
+      ],
+      "2":{
+         "Axe Forgemage's Hammer (1)":{
+            "Cherry Wood":"5",
+            "Crackler Stone":"1"
+         },
+         "Axe Smith's Hammer (1)":{
+            "Iron":"2",
+            "Walnut Wood":"1"
+         },
+         "Dagger Forgemage's Hammer (1)":{
+            "Walnut Wood":"10",
+            "Crackler Stone":"1"
+         },
+         "Dagger Smith's Hammer (1)":{
+            "Ash Wood":"2",
+            "Copper":"1"
+         },
+         "Handyman Hammer (1)":{
+            "Ebony Wood":"10",
+            "Bauxite":"10"
+         },
+         "Hammer Forgemage's Hammer (1)":{
+            "Oak Wood":"9",
+            "Crackler Stone":"1"
+         },
+         "Hammer Smith's Hammer (1)":{
+            "Ash Wood":"2",
+            "Iron":"1"
+         },
+         "Hurrian Hammer (1)":{
+            "Ash Wood":"1",
+            "Bakelelite":"1"
+         },
+         "Scratcher Smith's Hammer (1)":{
+            "Tin":"10",
+            "Oak Wood":"1"
+         },
+         "Shield Smith's Hammer (1)":{
+            "Dark Bamboo":"10",
+            "Bamboo Wood":"10"
+         },
+         "Shovel Forgemage's Hammer (1)":{
+            "Ash Wood":"18",
+            "Crackler Stone":"1"
+         },
+         "Shovel Smith's Hammer (1)":{
+            "Copper":"2",
+            "Ash Wood":"1"
+         },
+         "Small Twiggy Hammer (1)":{
+            "Chestnut Wood":"2",
+            "Ash Wood":"1"
+         },
+         "Sword Smithmagus's Hammer (1)":{
+            "Oak Wood":"5",
+            "Crackler Stone":"1"
+         },
+         "Sword Smith's Hammer (1)":{
+            "Iron":"2",
+            "Ash Wood":"1"
+         },
+         "Twiggy Hammer (2)":{
+            "Chestnut Wood":"3",
+            "Ash Wood":"1"
+         },
+         "Great Twiggy Hammer (4)":{
+            "Chestnut Wood":"4",
+            "Ash Wood":"1"
+         },
+         "Powerful Twiggy Hammer (6)":{
+            "Chestnut Wood":"5",
+            "Ash Wood":"1"
+         }
+      },
+      "3":{
+         "Gobball Hammer (10)":{
+            "Gobball Leather":"10",
+            "Gobball Horn":"1",
+            "Gobball Hoof":"1"
+         },
+         "Scraping Hammer (13)":{
+            "Chestnut Wood":"5",
+            "Walnut Wood":"5",
+            "Manganese":"2"
+         },
+         "Small Ivory Hammer (13)":{
+            "Cobalt":"3",
+            "Ivory":"3",
+            "Walnut Wood":"2"
+         },
+         "Small Scraping Hammer (13)":{
+            "Chestnut Wood":"6",
+            "Walnut Wood":"5",
+            "Manganese":"1"
+         },
+         "Great Scraping Hammer (14)":{
+            "Walnut Wood":"5",
+            "Chestnut Wood":"4",
+            "Manganese":"3"
+         },
+         "Aclou Mallet (15)":{
+            "Tin":"4",
+            "Copper":"4",
+            "Cherry Wood":"3"
+         },
+         "Ivory Hammer (15)":{
+            "Ivory":"4",
+            "Cobalt":"3",
+            "Walnut Wood":"3"
+         },
+         "Powerful Scraping Hammer (15)":{
+            "Chestnut Wood":"5",
+            "Walnut Wood":"5",
+            "Manganese":"3"
+         },
+         "Cerberus (16)":{
+            "Copper":"8",
+            "Cherry Wood":"2",
+            "Oak Wood":"1"
+         },
+         "Dha's Small Mace (18)":{
+            "Chestnut Wood":"4",
+            "Iron":"4",
+            "Ha Sword":"1"
+         },
+         "Great Ivory Hammer (18)":{
+            "Ivory":"5",
+            "Cobalt":"4",
+            "Walnut Wood":"2"
+         },
+         "Birming Hammer (18)":{
+            "Copper":"10",
+            "Fire Kwak Beak":"2",
+            "Ice Kwak Beak":"1"
+         },
+         "Powerful Ivory Hammer (19)":{
+            "Ivory":"6",
+            "Cobalt":"4",
+            "Walnut Wood":"3"
+         },
+         "Dha's Mace (20)":{
+            "Iron":"6",
+            "Chestnut Wood":"5",
+            "Ha Sword":"1"
+         },
+         "Small R'Unique Hammer (21)":{
+            "Small Magic Ring":"10",
+            "Walnut Wood":"4",
+            "Tin":"3"
+         },
+         "Dha's Solid Mace (22)":{
+            "Iron":"8",
+            "Chestnut Wood":"6",
+            "Ha Sword":"1"
+         },
+         "Dha's Unbreakable Mace (24)":{
+            "Iron":"10",
+            "Chestnut Wood":"7",
+            "Ha Sword":"1"
+         },
+         "R'Unique Hammer (24)":{
+            "Small Magic Ring":"12",
+            "Walnut Wood":"5",
+            "Tin":"4"
+         },
+         "Great R'Unique Hammer (27)":{
+            "Small Magic Ring":"13",
+            "Walnut Wood":"6",
+            "Tin":"6"
+         },
+         "Imposing R'Unique Hammer (30)":{
+            "Small Magic Ring":"15",
+            "Walnut Wood":"7",
+            "Tin":"7"
+         }
+      },
+      "4":{
+         "The Chafer Hammer (21)":{
+            "Chafer Bone":"9",
+            "Manganese":"2",
+            "Oak Wood":"1",
+            "Maple Wood":"1"
+         },
+         "Barabas (23)":{
+            "Tin":"10",
+            "Walnut Wood":"5",
+            "Bronze":"5",
+            "Manganese":"1"
+         },
+         "Hammer of Dawn (26)":{
+            "Bauxite":"5",
+            "Oak Wood":"2",
+            "Maple Wood":"1",
+            "Amber":"1"
+         },
+         "Sargasse (27)":{
+            "Chestnut Wood":"6",
+            "Maple Wood":"5",
+            "Bauxite":"4",
+            "Copper":"2"
+         },
+         "Small Mace Tmosfer (34)":{
+            "Silver":"5",
+            "Crackler Stone":"3",
+            "Farter":"2",
+            "Maple Wood":"1"
+         },
+         "Small Outar Hammer (36)":{
+            "Chestnut Wood":"20",
+            "Gold":"3",
+            "Twiggy Staff":"3",
+            "Small Strong Belt":"2"
+         },
+         "Mace Tmosfer (37)":{
+            "Silver":"6",
+            "Crackler Stone":"4",
+            "Maple Wood":"2",
+            "Farter":"2"
+         },
+         "Long Mace Tmosfer (40)":{
+            "Silver":"7",
+            "Crackler Stone":"4",
+            "Farter":"3",
+            "Maple Wood":"2"
+         },
+         "Outar Hammer (40)":{
+            "Chestnut Wood":"20",
+            "Gold":"4",
+            "Powerful Twiggy Staff":"3",
+            "Strong Belt":"2"
+         },
+         "Fearsome Mace Tmosfer (43)":{
+            "Silver":"8",
+            "Crackler Stone":"5",
+            "Farter":"3",
+            "Maple Wood":"3"
+         },
+         "Great Outar Hammer (44)":{
+            "Chestnut Wood":"20",
+            "Gold":"5",
+            "Leafy Staff":"3",
+            "Great Strong Belt":"2"
+         },
+         "Imposing Outar Hammer (48)":{
+            "Chestnut Wood":"20",
+            "Gold":"6",
+            "Powerful Leafy Staff":"3",
+            "Imposing Strong Belt":"2"
+         }
+      },
+      "5":{
+         "Ha Hammer (23)":{
+            "Ash Wood":"6",
+            "Iron":"5",
+            "Bronze":"5",
+            "Oak Wood":"5",
+            "Bauxite":"2"
+         },
+         "The Bhharnsheee Hammer (35)":{
+            "Iron":"15",
+            "Earthquake Potion":"5",
+            "Tremor Potion":"3",
+            "Ebony Wood":"1",
+            "The Chafer Hammer":"1"
+         },
+         "Toh'Lo Hammer (35)":{
+            "Elm Wood":"4",
+            "Yew Wood":"4",
+            "Megacrackler Megastone":"1",
+            "Magnesite":"1",
+            "Kouartz":"1"
+         },
+         "Small Aj Taye Mace (39)":{
+            "Ash Wood":"10",
+            "Sram Amulet":"6",
+            "Walnut Wood":"5",
+            "Ebony Wood":"4",
+            "Vampyre Blood":"2"
+         },
+         "Gobkool Hammer (41)":{
+            "Gobball Horn":"5",
+            "Gobkool Horn":"2",
+            "Plissken Tooth":"2",
+            "Kaliptus Wood":"1",
+            "Gobball Hammer":"1"
+         },
+         "Aj Taye Mace (43)":{
+            "Ash Wood":"10",
+            "Walnut Wood":"6",
+            "Sram Amulet":"6",
+            "Ebony Wood":"5",
+            "Vampyre Blood":"3"
+         },
+         "The Cardboard Twot (46)":{
+            "Bombu Wood":"3",
+            "Walnut Wood":"3",
+            "Magnesite":"1",
+            "Aluminite":"1",
+            "Crackler Stone":"1"
+         },
+         "Great Aj Taye Mace (47)":{
+            "Ash Wood":"10",
+            "Sram Amulet":"7",
+            "Walnut Wood":"7",
+            "Ebony Wood":"6",
+            "Vampyre Blood":"4"
+         },
+         "Knuckle Rapping Hammer (49)":{
+            "Cherry Wood":"5",
+            "Hornbeam Wood":"5",
+            "Bauxite":"5",
+            "Crackler Stone":"1",
+            "Ebonite":"1"
+         },
+         "Powerful Aj Taye Mace (51)":{
+            "Ash Wood":"10",
+            "Ebony Wood":"7",
+            "Walnut Wood":"7",
+            "Sram Amulet":"7",
+            "Vampyre Blood":"5"
+         }
+      },
+      "6":{
+         "Pinambour Hammer (50)":{
+            "Cherry Wood":"5",
+            "Dark Treechnid Root":"2",
+            "Dark Treechnid Bark":"2",
+            "Ebonite":"1",
+            "Sapphire":"1",
+            "Kobalite":"1"
+         },
+         "The Metronome (54)":{
+            "Hornbeam Wood":"4",
+            "Maple Wood":"4",
+            "Copper":"3",
+            "Aluminite":"1",
+            "Ebonite":"1",
+            "Polished Stone Fragment":"1"
+         },
+         "Tortoi Hammer (55)":{
+            "Hornbeam Wood":"4",
+            "Yew Wood":"4",
+            "Kriptonite":"1",
+            "Ebonite":"1",
+            "Aluminite":"1",
+            "Magnesite":"1"
+         },
+         "Refactor Hammer (55)":{
+            "Treechnid Bark":"8",
+            "Hornbeam Wood":"5",
+            "Yew Wood":"5",
+            "Treechnid Amber":"1",
+            "Magnesite":"1",
+            "Bakelelite":"1"
+         },
+         "Small Pospodrol Hammer (55)":{
+            "Magical Cure":"15",
+            "Bronze":"10",
+            "Hornbeam Wood":"5",
+            "Granite Stone":"2",
+            "Blo'up Belt":"2",
+            "Mental Ring":"1"
+         },
+         "Polpullet Hammer (57)":{
+            "Bombu Wood":"4",
+            "Hornbeam Wood":"4",
+            "Walnut Wood":"4",
+            "Polished Stone Fragment":"1",
+            "Bakelelite":"1",
+            "Kriptonite":"1"
+         },
+         "Pospodrol Hammer (60)":{
+            "Magical Cure":"20",
+            "Bronze":"10",
+            "Hornbeam Wood":"5",
+            "Granite Stone":"3",
+            "Blo'up Belt":"2",
+            "Mental Ring":"1"
+         },
+         "Large Pospodrol Hammer (65)":{
+            "Magical Cure":"25",
+            "Bronze":"13",
+            "Hornbeam Wood":"6",
+            "Granite Stone":"4",
+            "Blo'up Belt":"2",
+            "Mental Ring":"1"
+         },
+         "Ragnarok (66)":{
+            "Cherry Wood":"12",
+            "Silver":"10",
+            "Gold":"7",
+            "Crystal":"5",
+            "Emerald":"3",
+            "Ebony Wood":"1"
+         },
+         "Powerful Pospodrol Hammer (70)":{
+            "Magical Cure":"25",
+            "Bronze":"15",
+            "Hornbeam Wood":"7",
+            "Granite Stone":"5",
+            "Blo'up Belt":"2",
+            "Mental Ring":"1"
+         }
+      },
+      "7":{
+         "Rehadaure Hammer (100)":{
+            "Pointed Stone Fragment":"10",
+            "Ebony Wood":"6",
+            "Trunknid Wood":"5",
+            "Kobalite":"3",
+            "Sapphire":"3",
+            "Ruby":"3",
+            "Bewitched Wood":"2"
+         },
+         "Hammer Ican (107)":{
+            "Bamboo Wood":"15",
+            "Dark Bamboo":"10",
+            "Pointed Stone Fragment":"4",
+            "Kouartz":"4",
+            "Pyrute":"4",
+            "Topaz":"3",
+            "Aquamarine":"1"
+         },
+         "Toy Hammer (107)":{
+            "Bamboo Wood":"20",
+            "Dark Bamboo":"16",
+            "Magnesite":"7",
+            "Kouartz":"5",
+            "Pyrute":"4",
+            "Topaz":"4",
+            "Sapphire":"3"
+         },
+         "Hammer Ingthaiphoons (113)":{
+            "Polished Stone Fragment":"20",
+            "Magic Bamboo Wood":"10",
+            "Brassic":"5",
+            "Kriptonite":"4",
+            "Topaz":"3",
+            "Agathe":"2",
+            "Kouartz":"2"
+         },
+         "Falistos's Maul (79)":{
+            "Trunknid Wood":"15",
+            "Kriptonite":"5",
+            "Kobalite":"5",
+            "Megacrackler Megastone":"4",
+            "Crackler Heart":"4",
+            "Emerald":"4",
+            "Bewitched Wood":"2"
+         },
+         "Kidommer (79)":{
+            "Plain Pikoko Wing":"24",
+            "Kido Rear Feather":"18",
+            "Yew Wood":"9",
+            "Kaliptus Wood":"7",
+            "Preserved Bird Meat **":"5",
+            "Kido Beak":"4",
+            "Gourlo's Wrecked Shorts":"1"
+         },
+         "Fantal Hammer (81)":{
+            "Ebony Wood":"6",
+            "Elm Wood":"6",
+            "Trunknid Wood":"5",
+            "Gold Crackler Tooth":"4",
+            "Kriptonite":"3",
+            "Kouartz":"3",
+            "Crystal":"3"
+         },
+         "Legendary Crackler Hammer (81)":{
+            "Crackler Stone":"30",
+            "Flint":"15",
+            "Gold Crackler Tooth":"10",
+            "Kouartz":"4",
+            "Legendary Crackler Rock":"3",
+            "Crackler Blade":"1",
+            "Megacrackler Megastone":"1"
+         },
+         "Hammer of Wrongs (81)":{
+            "Pointed Stone Fragment":"10",
+            "Kobalite":"5",
+            "Magnesite":"5",
+            "Kouartz":"5",
+            "Sapphire":"4",
+            "Crystal":"4",
+            "Magic Slice of Trunknid":"2"
+         },
+         "Kaiser (82)":{
+            "Cherry Wood":"8",
+            "Oak Wood":"8",
+            "Yew Wood":"8",
+            "Gold":"4",
+            "Diamond":"1",
+            "Silver":"1",
+            "Dragon Pig Skull":"1"
+         },
+         "Pog Hammer (82)":{
+            "Polished Stone Fragment":"12",
+            "Bombu Wood":"12",
+            "Oliviolet Wood":"12",
+            "Whetstone":"10",
+            "Kouartz":"5",
+            "Sapphire":"3",
+            "Crystal":"2"
+         },
+         "Red Hammer (83)":{
+            "Polished Brain Fragment":"25",
+            "Vampyre Blood":"20",
+            "Gobball Blood":"6",
+            "Worn Coral":"5",
+            "Kido Beak":"3",
+            "Great Coral":"1",
+            "Toh'Lo Hammer":"1"
+         },
+         "Coralator Mace (85)":{
+            "Coralator Coccyx":"23",
+            "Bombu Wood":"13",
+            "Worn Coral":"4",
+            "Great Sacrum":"2",
+            "Plain Pikoko Nut":"2",
+            "Flib's Red Tuft":"1",
+            "Kilibriss Staff":"1"
+         },
+         "Terps Hammer (90)":{
+            "Elm Wood":"15",
+            "Magic Slice of Trunknid":"8",
+            "Ruby":"4",
+            "Sapphire":"4",
+            "Kriptonite":"3",
+            "Magnesite":"3",
+            "Dark Treechnid Amber":"2"
+         }
+      },
+      "8":{
+         "Castr Hammer (120)":{
+            "Kokokonut Palm Trunk":"200",
+            "Yew Wood":"20",
+            "Ebony Wood":"20",
+            "Bakelelite":"12",
+            "Kobalite":"10",
+            "Ancestral Wood":"8",
+            "Dark Treechnid Amber":"6",
+            "Emerald":"4"
+         },
+         "Crick Hammer (120)":{
+            "Kobalite":"20",
+            "Dark Treechnid Root":"12",
+            "Dark Treechnid Bark":"12",
+            "Crackler Heart":"10",
+            "Pointed Stone Fragment":"10",
+            "Megacrackler Megastone":"10",
+            "Magic Slice of Trunknid":"8",
+            "Crystal":"8"
+         },
+         "Blarney Hammer (120)":{
+            "Elm Wood":"20",
+            "Dark Treechnid Root":"20",
+            "Bakelelite":"20",
+            "Dark Treechnid Bark":"20",
+            "Crystal":"5",
+            "Ruby":"5",
+            "Ancestral Wood":"2",
+            "Dragon Pig Horn":"1"
+         },
+         "Dreggon Hammer (123)":{
+            "Boar Tusk":"100",
+            "Brassic":"5",
+            "Wild Koalak Femur":"5",
+            "Mama Koalak Bone":"5",
+            "Leopardo Ghost Bone":"5",
+            "Koalak Mummy Ulna":"1",
+            "Koolich Stone":"1",
+            "Golden Dragoss Horn":"1"
+         },
+         "Mastic Hammer (123)":{
+            "Mastogob Warrior Horn":"42",
+            "Mastogobbly Ear":"37",
+            "Kanigloo Ear":"35",
+            "Royal Mastogob Wool":"10",
+            "Mastogob Warrior Eye":"8",
+            "Mastogob Clavicle":"7",
+            "Cromagmunk Acorn":"5",
+            "Royal Mastogob Tail":"1"
+         },
+         "Toll Hammer (124)":{
+            "Dark Bamboo":"19",
+            "Trunknid Wood Wedge":"12",
+            "Golden Bamboo Wood":"7",
+            "Brassic":"6",
+            "Ambusher Root":"6",
+            "Topaz":"2",
+            "Agathe":"2",
+            "Leopardo Ghost Bone":"1"
+         },
+         "Great Coralator Mace (125)":{
+            "Dark Treeckler Seed":"35",
+            "Rotaflor Carpel":"25",
+            "Great Sacrum":"10",
+            "Holy Bamboo Wood":"10",
+            "Hornbeam Wood":"10",
+            "Cheeken Plait":"3",
+            "Great Coral":"3",
+            "Warguerite Bark":"3"
+         },
+         "Metal Hammer (126)":{
+            "Holy Bamboo Wood":"10",
+            "Brassic":"6",
+            "Pyrute":"6",
+            "Aquamarine":"4",
+            "Topaz":"3",
+            "Agathe":"3",
+            "Bewitched Wood":"1",
+            "Pandulum Ghost Bone":"1"
+         },
+         "Zoth Girl Hammer (132)":{
+            "Barkritter Calyx":"35",
+            "Zoth Fabric":"25",
+            "Crystal":"5",
+            "Kilibriss Staff":"3",
+            "Ra Agi Rune":"3",
+            "Zoth Girl's Handkerchief":"3",
+            "Preserved Gobball Leg ****":"2",
+            "Tynril Bark":"1"
+         },
+         "Cogito Hammer (135)":{
+            "Bulbig Root":"25",
+            "Dark Bamboo":"10",
+            "Golden Bamboo Wood":"6",
+            "Pyrute":"4",
+            "Aquamarine":"4",
+            "Megacrackler Megastone":"3",
+            "Topaz":"2",
+            "Pandikaze Ghost Bone":"1"
+         },
+         "Dunb Hammer (140)":{
+            "Polished Stone Fragment":"21",
+            "Kaliptus Wood":"15",
+            "Dark Bamboo Wood":"15",
+            "Dreggon Warrior Horn":"10",
+            "Holy Bambooto Amber":"10",
+            "Mama Koalak Bone":"8",
+            "Maho Firefoux Ghost Bone":"2",
+            "Mega Legendary Crackler Rock":"1"
+         },
+         "Trikidiki Hammer (143)":{
+            "Dark Bamboo":"20",
+            "Holy Bambooto Wood":"18",
+            "Brassic":"8",
+            "Holy Bambooto Amber":"7",
+            "Magic Bambooto Root":"6",
+            "Agathe":"5",
+            "Bulbig Magic Bark":"2",
+            "Pandora Ghost Bone":"1"
+         },
+         "Hammer Sheys (150)":{
+            "Holy Bamboo Wood":"15",
+            "Topaz":"10",
+            "Ancestral Amber":"10",
+            "Brassic":"10",
+            "Holy Bambooto Amber":"9",
+            "Magic Holy Bambooto Root":"8",
+            "Bulbig Magic Bark":"4",
+            "Tanukou\u00ef San Ghost Bone":"1"
+         },
+         "Vigi Pirate Hammer (156)":{
+            "Buck Anear Hair":"12",
+            "Retspan Pirate Tooth":"4",
+            "Buck Anear Scapula":"1",
+            "Karrybean Pirate Buoy":"5",
+            "Retspan Pirate Mast":"26",
+            "Vigi Pirate Fabric":"50",
+            "Vigi Pirate Eye":"5",
+            "Karrybean Pirate Tail":"17"
+         },
+         "Walloping Hammer (166)":{
+            "Obsidemon Vertebra":"1",
+            "Solfatara Ulna":"3",
+            "Steam Crackler Egg":"3",
+            "Solfatara Residue":"42",
+            "Fumaroller Artefact":"3",
+            "Mofette Tuff":"4",
+            "Atomystique Tephra":"3",
+            "Obsidemon Slag":"11"
+         },
+         "Oracular Hammer (173)":{
+            "Yomi Snowfoux Malleolus":"38",
+            "Maho Snowfoux Wool":"33",
+            "Kami Snowfoux Incisor":"19",
+            "Tengu Snowfoux Wool":"9",
+            "Maho Snowfoux Leather":"5",
+            "Yokai Snowfoux Skull":"4",
+            "Kami Snowfoux Cornea":"2",
+            "Tengu Snowfoux Leather":"1"
+         },
+         "Stephammer (178)":{
+            "Plain Pikoko Wing":"90",
+            "Kilibriss Down":"75",
+            "Mumminotor Bandage":"18",
+            "Pyrute":"10",
+            "Cheeken Plait":"9",
+            "Tynril Pistil":"4",
+            "Kaiser":"1",
+            "Kimbo Sock":"1"
+         },
+         "Ougaammer (180)":{
+            "Kilibriss Staff":"28",
+            "Trumperelle Trunk":"11",
+            "Mush Tup's Blade":"8",
+            "Tynril Bark":"2",
+            "Carnivorous Staff":"1",
+            "Ougaad":"1",
+            "Ougaat Fragment":"1",
+            "Zoth Girl Hammer":"1"
+         },
+         "Thunderbuff Hammer (187)":{
+            "Fungore Gill":"34",
+            "Fistulina Volva":"33",
+            "Serpula Volva":"33",
+            "Korriander Foot":"11",
+            "Fistulina Ear":"6",
+            "Treecherous Root":"5",
+            "Serpula Peduncle":"2",
+            "Korriander Eye":"1"
+         },
+         "Henual's Hammer (195)":{
+            "Venomous Brockhard Scapula":"23",
+            "Mopy King Fabric":"19",
+            "Tengu Snowfoux Wool":"12",
+            "Sphincter Cell Ear":"11",
+            "Ice Powder":"9",
+            "Maho Snowfoux Leather":"7",
+            "Light Treeckler Knot":"6",
+            "Solar Pebble":"3"
+         },
+         "Rampant Bearbarian Hammer (195)":{
+            "Rampant Bearbarian Leather":"44",
+            "Torpid Bearbarian Hair":"43",
+            "Apewicubic Bearbarian Ear":"39",
+            "Mellifluous Bearbarian Tail":"38",
+            "Vespal Bearbarian Antenna":"33",
+            "Celestial Bearbarian Tail":"9",
+            "Esurient Bearbarian Fabric":"2",
+            "Celestial Bearbarian Hamate":"1"
+         }
+      }
+   }
+}

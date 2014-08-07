@@ -1,0 +1,826 @@
+{
+   "Alchemist":{
+      "1":{
+         "Sponge Mob Essence":{
+            "Sponge Mob Skin":"10"
+         },
+         "Famished Sunflower Essence":{
+            "Magic Famished Sunflower Petal":"1"
+         },
+         "Batofu Essence":{
+            "Batofu Feather":"10"
+         },
+         "Smiths' Essence":{
+            "Smiths' Chest Lock":"1"
+         },
+         "Wa Wobot Essence":{
+            "Wa Wobot Beard":"1"
+         },
+         "Skeunk Essence":{
+            "Skeunk Hair":"1"
+         }
+      },
+      "2":{
+         "Spark Potion":{
+            "Element Flask":"1",
+            "Red Metaria":"5"
+         },
+         "Blaze Potion":{
+            "Element Flask":"1",
+            "Red Triam Metaria":"5"
+         },
+         "Wildfire Potion":{
+            "Element Flask":"1",
+            "Red Mage Metaria":"5"
+         },
+         "Draught Potion":{
+            "Element Flask":"1",
+            "Green Metaria":"5"
+         },
+         "Gust Potion":{
+            "Element Flask":"1",
+            "Green Triam Metaria":"5"
+         },
+         "Hurricane Potion":{
+            "Element Flask":"1",
+            "Green Mage Metaria":"5"
+         },
+         "Drizzle Potion":{
+            "Element Flask":"1",
+            "Blue Metaria":"5"
+         },
+         "Shower Potion":{
+            "Element Flask":"1",
+            "Blue Triam Metaria":"5"
+         },
+         "Tsunami Potion":{
+            "Element Flask":"1",
+            "Blue Mage Metaria":"5"
+         },
+         "Tremor Potion":{
+            "Element Flask":"1",
+            "Yellow Metaria":"5"
+         },
+         "Landslide Potion":{
+            "Element Flask":"1",
+            "Yellow Triam Metaria":"5"
+         },
+         "Earthquake Potion":{
+            "Element Flask":"1",
+            "Yellow Mage Metaria":"5"
+         },
+         "Magic Bluish Dye":{
+            "Blue Larva Skin":"20",
+            "Bluish Jelly":"1"
+         },
+         "Magic Dark Dye":{
+            "Arachnee Leg":"10",
+            "Moskito Wings":"10"
+         },
+         "Magic Greenish Dye":{
+            "Green Larva Skin":"20",
+            "Wild Mint Leaf":"20"
+         },
+         "Magic Orange Dye":{
+            "Orange Larva Skin":"20",
+            "Water":"10"
+         },
+         "Magic Redness Dye":{
+            "Strawberry":"10",
+            "Strawberry Jelly":"1"
+         },
+         "Brakmarian Intercity-Express Potion":{
+            "Rice":"1",
+            "Pandapils Flask":"1"
+         },
+         "Bontarian Intercity-Express Potion":{
+            "Rice":"1",
+            "Pandaburg Flask":"1"
+         },
+         "Recall Potion":{
+            "Water":"1",
+            "Five-Leaf Clover":"1"
+         },
+         "Temple of Scriptures Potion":{
+            "Chafer Bone":"1",
+            "Kaniger Nail":"1"
+         },
+         "Baker's Yeast":{
+            "Magical Cure":"1",
+            "Water":"1"
+         },
+         "Impure Blue Corruptah Stone":{
+            "Bluish Jelly":"2",
+            "Ghetto Raid Potion":"1"
+         },
+         "Impure Green Corruptah Stone":{
+            "Mint Jelly (item)":"2",
+            "Ghetto Raid Potion":"1"
+         },
+         "Impure Yellow Corruptah Stone":{
+            "Lemon Jelly (item)":"2",
+            "Ghetto Raid Potion":"1"
+         },
+         "Memory Potion":{
+            "Pandkin Seed":"1",
+            "Gobball Slobber":"1"
+         },
+         "Mini Healing Potion":{
+            "Water":"1",
+            "Flax Flower":"3"
+         },
+         "Potion of Old Age":{
+            "Hemp":"2",
+            "Gobball Slobber":"2"
+         },
+         "Larval Healing Potion":{
+            "Orange Larva Skin":"1",
+            "Gobball Blood":"1"
+         },
+         "Tombouflage Potion":{
+            "Moskito Brow":"1",
+            "Plissken Tooth":"1"
+         },
+         "Trashouflage Potion":{
+            "Kaniger Skin":"1",
+            "Scurvion Tail":"1"
+         },
+         "Stoolouflage Potion":{
+            "Evil Tofu Tooth":"1",
+            "Trunkiblop Root":"1"
+         },
+         "Rockouflage Potion":{
+            "Gobball War Chief Tongue":"1",
+            "Scurvion Seed":"1"
+         },
+         "Plantouflage Potion":{
+            "Ambusher Bud":"1",
+            "Mushd Mud":"1"
+         },
+         "Logouflage Potion":{
+            "Boowolf Claw":"1",
+            "Wild Grass (item)":"1"
+         },
+         "Barrouflage Potion":{
+            "Evil Dandelion Stem":"1",
+            "Greedoblop Flower":"1"
+         },
+         "Small Attack Potion":{
+            "Blopshroom Flower":"1",
+            "Boowolf Canine":"1"
+         },
+         "Minor Croquette Potion":{
+            "Crabeye Pincer":"1",
+            "Snowdrop":"1"
+         },
+         "Major Croquette Potion":{
+            "Gullipop Feather":"1",
+            "Snowdrop":"1"
+         },
+         "Royal Gobball Essence":{
+            "Royal Gobball Wool":"1",
+            "Royal Gobball Leather":"1"
+         },
+         "Ronin Chafer Essence":{
+            "Ronin Chafer Thighbone":"10",
+            "Spinal Cord":"1"
+         },
+         "Boostache Essence":{
+            "Boostoplasm":"3",
+            "Boostache Moustache":"1"
+         },
+         "Kwakwa Essence":{
+            "Kwakwa Feather":"3",
+            "Kwakwa Beak":"1"
+         },
+         "Bworkette Essence":{
+            "Bworkette Skin":"10",
+            "Bworkette Hair":"1"
+         },
+         "Bulbig Brotha Essence":{
+            "Bulbig Root":"10",
+            "Bulbig Magic Bark":"1"
+         },
+         "Wa Wabbit Essence":{
+            "Wa Wabbit Hair":"10",
+            "Wa Wabbit Fabric":"1"
+         },
+         "Kanniball Andchain Essence":{
+            "Carniflora":"3",
+            "Kanniball Andchain's Hood":"1"
+         },
+         "Nelween Essence":{
+            "Nelween Down":"3",
+            "Flask of Nelween Smoke":"1"
+         },
+         "Legendary Crackler Essence":{
+            "Legendary Crackler Rock":"10",
+            "Mega Legendary Crackler Rock":"1"
+         },
+         "Daggero Essence":{
+            "Daggero Hair":"10",
+            "Daggero's Nappy":"1"
+         },
+         "Koolich Essence":{
+            "Koolich Braid":"10",
+            "Koolich Stone":"1"
+         },
+         "Dramak Essence":{
+            "Dramak's Holey Sock":"10",
+            "Dramak's Holey Pants":"1"
+         },
+         "Royal Rainbow Blop Essence":{
+            "Royal Rainbow Blop Leaf":"10",
+            "Royal Rainbow Blop Flower":"1"
+         },
+         "Royal Mastogob Essence":{
+            "Royal Mastogob Wool":"10",
+            "Royal Mastogob Tail":"1"
+         },
+         "Royal Pingwin Essence":{
+            "Royal Pingwin Feather":"10",
+            "Royal Pingwin Egg":"1"
+         },
+         "Buck Anear Essence":{
+            "Buck Anear Hair":"10",
+            "Buck Anear Scapula":"1"
+         },
+         "Obsidemon Essence":{
+            "Obsidemon Slag":"10",
+            "Obsidemon Vertebra":"1"
+         },
+         "Tengu Snowfoux Essence":{
+            "Tengu Snowfoux Wool":"10",
+            "Tengu Snowfoux Leather":"1"
+         },
+         "Korriander Essence":{
+            "Korriander Foot":"10",
+            "Korriander Eye":"1"
+         },
+         "Giant Kralove Essence":{
+            "Giant Kralove Sucker":"5",
+            "Giant Kralove Ink":"1"
+         },
+         "Bworker Essence":{
+            "Bworker Nail":"10",
+            "Bworker Hide":"1"
+         },
+         "Sylargh Essence":{
+            "Sylargh's Wool":"10",
+            "Sylargh's Incisor":"1"
+         },
+         "Nileza Essence":{
+            "Nileza's Embroidery":"10",
+            "Nileza's Buttonhole":"1"
+         },
+         "Missiz Freezz Essence":{
+            "Missiz Freezz's Armpit Hair":"10",
+            "Missiz Freezz's Underpants":"1"
+         },
+         "Merkator Essence":{
+            "Merkator's Beard":"10",
+            "Merkator's Heart":"1"
+         },
+         "Kolosso Essence":{
+            "Kolosso Claw":"10",
+            "Kolosso Fabric":"1"
+         },
+         "Klime Essence":{
+            "Klime's Moustache":"10",
+            "Klime's Scalp":"1"
+         },
+         "Celestial Bearbarian Essence":{
+            "Celestial Bearbarian Tail":"10",
+            "Celestial Bearbarian Hamate":"1"
+         },
+         "Count Harebourg Essence":{
+            "Count Harebourg's Scapula":"10",
+            "Count Harebourg's Bandages":"1"
+         }
+      },
+      "3":{
+         "Potion: Destination Unknown":{
+            "Crab Pincer":"1",
+            "Acorn":"1",
+            "Water":"1"
+         },
+         "Bottle of Greedoburg":{
+            "Salad":"10",
+            "Pandaburg Flask":"5",
+            "Greedo Rum":"1"
+         },
+         "Ghetto Raid Potion":{
+            "Potion of Old Age":"1",
+            "Five-Leaf Clover":"3",
+            "Wild Mint Leaf":"3"
+         },
+         "Large Unikron Horn":{
+            "Unikron Blood":"4",
+            "Big Phial":"1",
+            "Kerub Hair":"1"
+         },
+         "Prancing Chimera Potion":{
+            "Blue Larva Skin":"1",
+            "Gobball Blood":"1",
+            "Tofu Egg":"1"
+         },
+         "Scalding Poison":{
+            "Water":"1",
+            "Glass Bowl":"1",
+            "Arachnee Leg":"10"
+         },
+         "Superior Mini Healing Potion":{
+            "Water":"1",
+            "Hemp Flower":"2",
+            "Flax Flower":"2"
+         },
+         "Wefweshing Potion":{
+            "Water":"1",
+            "Dragoturkey Sweat":"1",
+            "Cawwot":"1"
+         },
+         "Average Attack Potion":{
+            "Chafer Skull":"1",
+            "Small Attack Potion":"1",
+            "Crab Tongue":"1"
+         },
+         "Immobile Camouflage Potion":{
+            "Kaniger Nail":"5",
+            "Trunkiblop Root":"3",
+            "Araknawa Leg":"1"
+         },
+         "Liberation Potion":{
+            "Ambusher Bud":"5",
+            "Kaniger Hair":"5",
+            "Ouginak Chain":"1"
+         },
+         "Total Camouflage Potion":{
+            "Immobile Camouflage Potion":"1",
+            "Invisible Chafer Bone":"1",
+            "Major Arachnee Leg.":"1"
+         },
+         "Shin Larva Essence":{
+            "Small Golden Pearl":"10",
+            "Shin Larva Skin":"10",
+            "Shin Larva Tooth":"1"
+         },
+         "Great Coralator Essence":{
+            "Great Sacrum":"10",
+            "Great Coral":"1",
+            "Coralator Fabric":"1"
+         },
+         "Gourlo the Terrible Essence":{
+            "Gourlo's Wrecked Shorts":"10",
+            "Gourlo the Terrible Fabric":"1",
+            "Gourlo's Explosive Powder":"1"
+         },
+         "Moon Essence":{
+            "Moon Skin":"10",
+            "Moon Hair":"10",
+            "Magic Moon Fabric":"1"
+         },
+         "White Rat Essence":{
+            "White Rat Skin":"10",
+            "White Rat Tooth":"10",
+            "White Rat Fabric":"10"
+         },
+         "Lord Crow Essence":{
+            "Lord Crow Down":"10",
+            "Lord Crow Feather":"10",
+            "Clakoss":"1"
+         },
+         "Black Rat Essence":{
+            "Black Rat Skin":"10",
+            "Black Rat Ulna":"10",
+            "Black Rat Fabric":"10"
+         },
+         "Royal Tofu Essence":{
+            "Royal Tofu Feather":"10",
+            "Broken Royal Tofu Crown":"1",
+            "Vibrating Royal Tofu Feather":"1"
+         },
+         "Crocabulia Essence":{
+            "Crocabulia Skin":"10",
+            "Crocabulia's Broken Horn":"1",
+            "Crocabulia Tooth":"1"
+         },
+         "Tanukou\u00ef San Essence":{
+            "Tanukou\u00ef San Hair":"10",
+            "Tanukou\u00ef San Skin":"10",
+            "Tanukou\u00ef San Testicles":"1"
+         },
+         "Peki Peki Essence":{
+            "Peki Peki Hair":"10",
+            "Magic Peki Peki Tail":"1",
+            "Peki Peki Fabric":"1"
+         },
+         "Ougaa Essence":{
+            "Ougaa Eye":"10",
+            "Ougaad":"10",
+            "Ougaat Fragment":"1"
+         },
+         "Fuji Snowfoux Essence":{
+            "Snowfoux Tear":"10",
+            "Fuji Snowfoux Leather":"10",
+            "Fuji Snowfoux Condyle":"1"
+         }
+      },
+      "4":{
+         "Magic Blood Orange Dye":{
+            "Gobball Blood":"10",
+            "Shiny Sardine":"5",
+            "Magic Orange Dye":"1",
+            "Magic Redness Dye":"1"
+         },
+         "Health Flask":{
+            "Water":"1",
+            "Slender Tube":"1",
+            "Freyesque Orchid":"2",
+            "Wild Mint Leaf":"2"
+         },
+         "Superior Health Flask":{
+            "Water":"1",
+            "Slender Tube":"1",
+            "Five-Leaf Clover":"4",
+            "Edelweiss":"2"
+         },
+         "Pahoa Raid Potion":{
+            "Potion of Old Age":"2",
+            "Five-Leaf Clover":"5",
+            "Wild Mint Leaf":"5",
+            "Freyesque Orchid":"3"
+         },
+         "Vampyric Liquid":{
+            "Water":"1",
+            "Glass Bowl":"1",
+            "Chafer Bone":"4",
+            "Vampyre Blood":"1"
+         },
+         "HmmMmm Potion\u200e\u200e":{
+            "Arachnee Leg":"1",
+            "Orange Larva Skin":"1",
+            "Gobball Slobber":"1",
+            "Gobball Blood":"1"
+         },
+         "Large Attack Potion":{
+            "Trunkiblop Root":"1",
+            "Blop Petal":"1",
+            "Average Attack Potion":"1",
+            "Hemp Fibre":"1"
+         },
+         "Golden Scarabugly Essence":{
+            "Golden Scarabugly Antennae":"15",
+            "Golden Scarabugly Wings":"15",
+            "Golden Scarabugly Carapace":"15",
+            "Golden Scarabugly Entrails":"1"
+         },
+         "Royal Jelly Essence":{
+            "Royal Mint Jelly":"1",
+            "Royal Strawberry Jelly":"1",
+            "Royal Bluish Jelly":"1",
+            "Royal Lemon Jelly":"1"
+         },
+         "Silf the Greater Bherb Essence":{
+            "Greater Bherb Feather":"10",
+            "Greater Bherb Eyebrows":"10",
+            "Greater Bherb Feathered Tail":"1",
+            "Greater Bherb Skin":"1"
+         },
+         "Pandora Master Essence":{
+            "Pandora Master Triquetral":"10",
+            "Pandora Master Skin":"1",
+            "Pandora Master Hair":"1",
+            "Pandora Master Fabric":"1"
+         },
+         "Soft Oak Essence":{
+            "Soft Oak Bark":"10",
+            "Soft Oak Root":"10",
+            "Soft Oak Bud":"1",
+            "Soft Oak Amber":"1"
+         },
+         "Sphincter Cell Essence":{
+            "Sphincter Cell Skin":"10",
+            "Sphincter Cell Femur":"10",
+            "Sphincter Cell Ear":"10",
+            "Sphincter Cell Fabric":"1"
+         },
+         "Kimbo Essence":{
+            "Kimbo Sphenoid":"10",
+            "Kimbo Wig":"10",
+            "Kimbo's Precious Stone":"1",
+            "Kimbo Sock":"1"
+         },
+         "Grohlum Essence":{
+            "Frozen Fragment":"10",
+            "Ice Powder":"10",
+            "Frozen Fabric":"1",
+            "Temporal Shard":"1"
+         }
+      },
+      "5":{
+         "Guild House Potion":{
+            "Piece of Cherry Blop":"1",
+            "Home Potion":"1",
+            "Piece of Indigo Blop":"1",
+            "Piece of Pippin Blop":"1",
+            "Piece of Coco Blop":"1"
+         },
+         "Guild Paddock Potion":{
+            "Cherry Blop Flower":"1",
+            "Home Potion":"1",
+            "Indigo Blop Flower":"1",
+            "Pippin Blop Flower":"1",
+            "Coco Blop Flower":"1"
+         },
+         "Cra Elixir":{
+            "Piece of Cherry Blop":"5",
+            "Piece of Coco Blop":"5",
+            "Piece of Indigo Blop":"5",
+            "Piece of Pippin Blop":"5",
+            "Plain Boar Tusk":"1"
+         },
+         "Ecaflip Elixir":{
+            "Piece of Cherry Blop":"5",
+            "Piece of Coco Blop":"5",
+            "Piece of Indigo Blop":"5",
+            "Piece of Pippin Blop":"5",
+            "Kaniger Nail":"1"
+         },
+         "Eniripsa Elixir":{
+            "Piece of Cherry Blop":"5",
+            "Piece of Coco Blop":"5",
+            "Piece of Indigo Blop":"5",
+            "Piece of Pippin Blop":"5",
+            "Ouginak Eye":"1"
+         },
+         "Enutrof Elixir":{
+            "Piece of Cherry Blop":"5",
+            "Piece of Coco Blop":"5",
+            "Piece of Indigo Blop":"5",
+            "Piece of Pippin Blop":"5",
+            "Mushd Mud":"1"
+         },
+         "Feca Elixir":{
+            "Piece of Cherry Blop":"5",
+            "Piece of Coco Blop":"5",
+            "Piece of Indigo Blop":"5",
+            "Piece of Pippin Blop":"5",
+            "Evil Dandelion Stem":"1"
+         },
+         "Foggernaut Elixir":{
+            "Piece of Cherry Blop":"5",
+            "Piece of Coco Blop":"5",
+            "Piece of Indigo Blop":"5",
+            "Piece of Pippin Blop":"5",
+            "Crab Pincer":"1"
+         },
+         "Iop Elixir":{
+            "Piece of Cherry Blop":"5",
+            "Piece of Coco Blop":"5",
+            "Piece of Indigo Blop":"5",
+            "Piece of Pippin Blop":"5",
+            "Gobball Brain":"1"
+         },
+         "Masqueraider Elixir":{
+            "Piece of Cherry Blop":"5",
+            "Piece of Coco Blop":"5",
+            "Piece of Indigo Blop":"5",
+            "Piece of Pippin Blop":"5",
+            "Treechnid Bud":"1"
+         },
+         "Osamodas Elixir":{
+            "Piece of Cherry Blop":"5",
+            "Piece of Coco Blop":"5",
+            "Piece of Indigo Blop":"5",
+            "Piece of Pippin Blop":"5",
+            "Chafer Bone":"1"
+         },
+         "Pandawa Elixir":{
+            "Piece of Cherry Blop":"5",
+            "Piece of Coco Blop":"5",
+            "Piece of Indigo Blop":"5",
+            "Piece of Pippin Blop":"5",
+            "Ambusher Bud":"1"
+         },
+         "Rogue Elixir":{
+            "Piece of Cherry Blop":"5",
+            "Piece of Coco Blop":"5",
+            "Piece of Indigo Blop":"5",
+            "Piece of Pippin Blop":"5",
+            "Kwoan Eye":"1"
+         },
+         "Sacrier Elixir":{
+            "Piece of Cherry Blop":"5",
+            "Piece of Coco Blop":"5",
+            "Piece of Indigo Blop":"5",
+            "Piece of Pippin Blop":"5",
+            "Gobball Blood":"1"
+         },
+         "Sadida Elixir":{
+            "Piece of Cherry Blop":"5",
+            "Piece of Coco Blop":"5",
+            "Piece of Indigo Blop":"5",
+            "Piece of Pippin Blop":"5",
+            "Wabbit Tooth":"1"
+         },
+         "Sram Elixir":{
+            "Piece of Cherry Blop":"5",
+            "Piece of Coco Blop":"5",
+            "Piece of Indigo Blop":"5",
+            "Piece of Pippin Blop":"5",
+            "Rat Fang":"1"
+         },
+         "Xelor Elixir":{
+            "Piece of Cherry Blop":"5",
+            "Piece of Coco Blop":"5",
+            "Piece of Indigo Blop":"5",
+            "Piece of Pippin Blop":"5",
+            "Boar Hair":"1"
+         },
+         "Raid Boole Potion":{
+            "Potion of Old Age":"3",
+            "Five-Leaf Clover":"10",
+            "Wild Mint Leaf":"10",
+            "Freyesque Orchid":"5",
+            "Edelweiss":"3"
+         },
+         "Small Mass Healing Potion":{
+            "Hemp Fibre":"1",
+            "Fairy Water":"1",
+            "Whitish Fang Tongue":"1",
+            "Whitish Fang Fur":"1",
+            "Mushd Mud":"1"
+         },
+         "Royal Blop Essence":{
+            "Royal Blop Leaf":"10",
+            "Royal Morello Cherry Blop Flower":"1",
+            "Royal Coco Blop Flower":"1",
+            "Royal Indigo Blop Flower":"1",
+            "Royal Pippin Blop Flower":"1"
+         },
+         "Ancestral Treechnid Essence":{
+            "Ancestral Treechnid Bark":"10",
+            "Ancestral Treechnid Root":"10",
+            "Ancestral Amber":"10",
+            "Ancestral Treechnid Bud":"1",
+            "Bewitched Wood":"1"
+         },
+         "Tynril Essence":{
+            "Tynril Calyx":"10",
+            "Tynril Pistil":"10",
+            "Tynril Bark":"1",
+            "Tynril Amber":"1",
+            "Lacerated Tynril Skin":"1"
+         }
+      },
+      "6":{
+         "Fairy Water":{
+            "Water":"1",
+            "Big Phial":"1",
+            "Flax Flower":"8",
+            "Hemp Flower":"8",
+            "Freyesque Orchid":"4",
+            "Edelweiss":"2"
+         },
+         "Unikron Blood":{
+            "Water":"1",
+            "Big Phial":"1",
+            "Five-Leaf Clover":"8",
+            "Wild Mint Leaf":"8",
+            "Freyesque Orchid":"6",
+            "Edelweiss":"4"
+         },
+         "Mass Healing Potion":{
+            "Greedoblop Flower":"1",
+            "Trunkiblop Root":"1",
+            "Wabbit Tooth":"1",
+            "Whitish Fang Tail":"1",
+            "Small Mass Healing Potion":"1",
+            "Crab Tongue":"1"
+         },
+         "Moowolf Essence":{
+            "Moowolf Scalp":"10",
+            "Moowolf Eye":"1",
+            "Moowolf Teeth":"1",
+            "Moowolf Testicles":"1",
+            "Moowolf Magic Testicles":"1",
+            "Moowolf Fabric":"1"
+         },
+         "Dragon Pig Essence":{
+            "Dragon Pig Snout":"10",
+            "Dragomilk":"1",
+            "Dragon Pig Hair":"1",
+            "Dragon Pig Horn":"1",
+            "Dragon Pig Blood":"1",
+            "Dragon Pig Leather":"1"
+         },
+         "Minotoror Essence":{
+            "Minotoror Hair":"10",
+            "Minotoror Wool":"10",
+            "Minotoror Femur":"1",
+            "Minotoror Leather":"1",
+            "Minotoror Tail":"1",
+            "Minotoror Hoof":"1"
+         },
+         "Minotot Essence":{
+            "Minotot Ethmoid":"10",
+            "Minotot Wool":"1",
+            "Minotot Femur":"1",
+            "Minotot Leather":"1",
+            "Minotot Hoof":"1",
+            "Minotot Horn":"1"
+         }
+      },
+      "7":{
+         "Bulbish Potion":{
+            "Kaliptus Flower":"1",
+            "Kaliptus Leaf":"1",
+            "Kurasso Bulb":"1",
+            "Mahlibuh Bulb":"1",
+            "Mojeeto Bulb":"1",
+            "Passaoh Bulb":"1",
+            "Rice Flour":"1"
+         },
+         "Phoenix Blood":{
+            "Potion of Old Age":"1",
+            "Superior Mini Healing Potion":"1",
+            "Ghetto Raid Potion":"1",
+            "Fairy Water":"1",
+            "Five-Leaf Clover":"1",
+            "Pandkin Seed":"1",
+            "Rice":"1"
+         },
+         "Great Mass Healing Potion":{
+            "Mass Healing Potion":"1",
+            "Gobball War Chief Tongue":"1",
+            "Rat Fang":"1",
+            "Dreggon Warrior Skin":"1",
+            "Blopshroom Flower":"1",
+            "Evil Tofu Tooth":"1",
+            "Gobball Blood":"1"
+         }
+      },
+      "8":{
+         "Chichala Flask (100)":{
+            "Hemp Flower":"6",
+            "Edelweiss":"3",
+            "Big Phial":"1",
+            "Arachnee Leg":"1",
+            "Demonic Rose Saliva":"1",
+            "Kaliptus Flower":"1",
+            "Kerub Hair":"1",
+            "Tofu Egg":"1"
+         },
+         "Gutrot Potion (100)":{
+            "Frighog Pierced Ear":"1",
+            "Water":"1",
+            "Hemp Flower":"1",
+            "Big Phial":"1",
+            "Snowdrop":"1",
+            "Mastogobbly Ear":"1",
+            "Wild Mint Leaf":"1",
+            "Kanigloo Ear":"1"
+         },
+         "Raid Rayve Potion (100)":{
+            "Flax Flower":"10",
+            "Wild Mint Leaf":"10",
+            "Hemp Flower":"10",
+            "Freyesque Orchid":"5",
+            "Snowdrop":"1",
+            "Potion of Old Age":"3",
+            "Five-Leaf Clover":"10",
+            "Edelweiss":"3"
+         },
+         "Starry Potion (100)":{
+            "Mastogobbly Ear":"2",
+            "Snow Star":"1",
+            "Snowdrop":"2",
+            "Frighog Pierced Ear":"2",
+            "Kanigloo Ear":"2",
+            "Potion of Old Age":"6",
+            "Freyesque Orchid":"10",
+            "Edelweiss":"6"
+         },
+         "Great Phoenix Blood":{
+            "Potion of Old Age":"1",
+            "Superior Mini Healing Potion":"1",
+            "Ghetto Raid Potion":"1",
+            "Fairy Water":"1",
+            "Five-Leaf Clover":"1",
+            "Pandkin Seed":"10",
+            "Rice":"10",
+            "Raid Boole Potion":"1"
+         },
+         "Incredible Mass Healing Potion":{
+            "Great Mass Healing Potion":"1",
+            "Soryo Firefoux Hair":"1",
+            "Scurvion Leg":"1",
+            "Ouginak Hair":"1",
+            "Kaniger Nail":"1",
+            "Kolerat Nose":"1",
+            "Kolerat Whiskers":"1",
+            "Kolerat Ear":"1"
+         }
+      }
+   }
+}

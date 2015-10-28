@@ -20,12 +20,6 @@ html {
     text-shadow: none;
 }
 /* MAIN CONTENT */
-
-h2,h3,h4,h5 {
-  font-weight:normal;
-  text-transform: uppercase;
-}
-
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button, {
     -webkit-appearance: none;
@@ -40,7 +34,7 @@ input[type="number"] {
 header {
   background-color:#333;
   color:white;
-  margin:0 0 1.4em 0;
+  margin:0;
   font-family:"open sans",sans-serif;
   position:absolute;
   width: 100%;
@@ -54,8 +48,10 @@ header {
   height: 65px;
   margin: 0;
   float: left;
-  padding: 5px 5px 5px 0.5em;
+  padding: 5px 5px 5px 0;
   font-weight:normal;
+  overflow: hidden;
+
   @include quiebres(portrait)
   {
     width:65px;
@@ -88,12 +84,24 @@ header {
   }
 }
 nav {
-  width: 137px;
+  width: 300px;
   float: right;
+  text-align: right;
+  @include quiebres {
+    width: 250px;
+    width: calc(100% - 65px);
+  }
+
+
   svg {
     max-width:100%;
     max-height:100%;
     fill:white;
+  }
+  .lang {
+    padding: 5px;
+    text-decoration: none;
+    font-size: 0.9em;
   }
   .menu {
     width: 65px;
@@ -271,15 +279,29 @@ nav {
     
   }
 }
+
 #data {
   margin-bottom: 1em;
-  label {
-    display:inline-block;
-    margin-right:1em;
-    margin-bottom: 0.5em;
+}
+.label-input {
+  display:inline-block;
+  margin-right:1em;
+  margin-bottom: 0.5em;
+
+  @include quiebres {
+    width: 100%;
   }
 }
-input[type="number"] {
+.label-input__texto {
+  width: 140px;
+  display: inline-block;
+}
+.label-input__input {
+  width: 150px;
+  width: calc(100% - 150px);
+}
+
+input[type="text"] {
   background-color:white;
   margin-left: 0.25em;
   border:1px solid transparent;
@@ -310,10 +332,13 @@ input[type="number"] {
     background-color:#BF4040;
     color:white;
     @include animate(shake,0.8s,0,ease-in-out,1);
-    &:before {
-      font-size:4em;
-      color:hsla(0,0%,90%,.3);
-      top:-1%;
+    .warningIco {
+      display: block;
+      font-size: 7em;
+      color: hsla(0, 100%, 100%, 0.3);
+      position: absolute;
+      top: -39px;
+      right: 24px;
     }
   }
   .iconProfession {
@@ -367,42 +392,52 @@ table {
 .slots {
   margin-bottom:30px;
   .slotTitle {
+    text-transform:uppercase;
     margin-bottom:5px;
     cursor:pointer;
+    
+    .isBlocked,
+    .isUseless,
+    .isBlockUseless {
+      display:none;
+    }
+
     &.useless {
-      color:hsl(0,0%,80%);
-      &:after {
-        content:"(This Recipe won\'t give you any exp at your level)";
+      .isUseless {
+        display:inline-block;
         font-size: 0.55em;
-        text-transform: uppercase;
         float: right;
         color: hsl(0, 0%, 60%);
         margin-top: 8px;
         @include quiebres {
-          margin-top:0;
-          font-family: "dofus-professions";
-          content:"C";
-          font-size:20px;
+          display:none;
         }
       }
     }
     &.blocked {
-      color:hsl(0,0%,80%);
-      &:after {
-        content:"(You can\'t craft this recipe at your level)";
+      .isBlocked {
+        display:inline-block;
         font-size: 0.55em;
-        text-transform: uppercase;
         float: right;
         color: hsl(0, 0%, 60%);
         margin-top: 8px;
         @include quiebres {
-          margin-top:0;
-          font-family: "dofus-professions";
-          content:"C";
-          font-size:20px;
+          display:none;
         }
       }
     }
+    &.blocked,
+    &.useless {
+      color:hsl(0,0%,80%);
+      .isBlockUseless {
+        @include quiebres {
+          display:inline-block;
+          float: right;
+          font-size: 1.4em;
+        }
+      }
+    }
+
     strong {
       font-weight:400;
       font-size:1.1em;
@@ -416,7 +451,7 @@ table {
         line-height: 0.3em;
         margin-right: 5px;
         vertical-align: bottom;
-        @include transicion(all,0.3s);
+        @include transicion(all,0.125s);
         @include prefixer(transform,rotate(-90deg));
         display: inline-block;
         width: 24px;
@@ -428,24 +463,19 @@ table {
     padding: 1em;
     border: 1px solid hsl(0, 0%, 90%);
     border-radius: 3px;
-    
-    /*
-    @include transicion(all,10s);
-    max-height:9999px;
-    padding:1em;
-    overflow:hidden;
-    &.ng-leave,
-    &.ng-enter {
-      max-height:0;
-      padding:0 1em;
-    }
-    */
     .recipe {
       margin-bottom: 15px;
       strong {
         font-weight:600;
         text-transform: uppercase;
         vertical-align: middle;
+      }
+      .titleRecipe {
+        display: table;
+      }
+      .recipe-box__icon,
+      .recipe-box__text {
+        display: table-cell;
       }
       .calcRecipe {
         font-size: 1.4em;
@@ -468,18 +498,36 @@ table {
           border-color:$rojo;
         }
       }
+      .nivel-receta {
+        text-align: right;
+        font-size: 0.8em;
+        vertical-align: text-bottom;
+      }
       .ingredientes {
         @include transicion;
-        & > span {
-          font-size:0.9em;
-          &:not(:last-child):after {
-            content:",";
-          }
-          .ingredQuantity.check {
-            color:$rojo;
-            font-weight:600;
-          }
+      }
+      .ingrediente {
+        font-size: 0.9em;
+        display: table;
+        border-bottom: 1px solid hsl(0,0%,80%);
+        padding-left: 25px;
+        width: 100%;
+      }
+      .ingredQuantity,
+      .ingredName {
+        padding: 5px;
+        display: table-cell;
+      }
+      .ingredQuantity {
+        width: 90px;
+        text-align: right;
+        &.check {
+          color: $rojo;
+          font-weight: 600;
         }
+      }
+      .ingredName {
+
       }
     }
   }
@@ -487,6 +535,21 @@ table {
     span.arrow {
       @include prefixer(transform,rotate(0));
     }
+  }
+}
+
+.setLangContainer {
+  font-size: 0.8em;
+  margin-bottom: 2em;
+  display: block;
+}
+.setLang {
+  padding: 2px 4px;
+  border-radius: 2px;
+  cursor: pointer;
+  &.activo {
+    background-color: $rojo;
+    color: hsl(0, 100%, 100%);
   }
 }
 
@@ -520,27 +583,37 @@ $bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
   z-index: -1;
   .iconoPreload {
     display: block;
-    height: 10em;
-    width: 10em;
-    margin: -5em -5em;
+    height: 122px;
+    width: 90px;
+    margin: -66px -45px;
     position: absolute;
     top: 45%;
     left: 50%;
-    color: white;
+    color: hsl(0, 100%, 100%);
     @include prefixer(transform-origin,50% 50%);
     @include animate(tembleque,0.8s,0,$bounce,infinite);
-    &:before {
-      font-size:10em;
+    svg {
+      fill:white;
     }
   }
 }
 
 .searchBox {
   margin-bottom: 1em;
+  position:relative;
+  .searchIcon {
+    display: block;
+    position: absolute;
+    top: 0.25em;
+    right: 0.25em;
+    font-size: 1.3em;
+    color: hsl(0, 0%, 50%);
+  }
   input {
     width: 100%;
     padding: 5px;
     font-size: 1.2em;
+    margin: 0;
   }
 }
 
@@ -581,6 +654,14 @@ $bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 .searchBarHunterButcher {
   position:relative;
 
+  .searchIcon {
+    font-size: 2em;
+    color: hsl(0, 0%, 65%);
+    position: absolute;
+    top: 50%;
+    right: 0.5em;
+    margin-top: -0.45em;
+  }
   input {
     width: 100%;
     padding: 0.75em 1em;
@@ -629,7 +710,7 @@ $bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
         width: 100%;
         padding: 0;
         margin: 0;
-        border-bottom: 0;
+        border:1px solid lightgray;
         background-color: hsl(0, 0%, 95%);
         text-align: center;
       }
@@ -639,6 +720,7 @@ $bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
       padding:0 0.5em;
     }
     .erase {
+      font-size:1.6em;
       width:20%;
       background-color: $rojo;
       color:white;
@@ -678,16 +760,13 @@ $bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
 }
 
-
-
-
 footer {
-  padding-top:50px;
+  background-color: white;
   .footerDeep {
-    padding:20px;
+    padding:0 1em 1em 1em;
     text-align:center;
     small {
-      
+      display: block;
     }
   }
 }

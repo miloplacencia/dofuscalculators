@@ -1,10 +1,10 @@
 <div class="gatheringProfession dorado chico" ng-show="results.isGathering">
-    <h2>List of Resources</h2>
+    <h2>{{$parent.$parent.main.texts.profession.gatheringList.title[$parent.$parent.main.lang]}}</h2>
     <table class="gathering">
         <tr>
-            <th>Level</th>
-            <th>Resource</th>
-            <th>Amount</th>
+            <th>{{$parent.$parent.main.texts.profession.gatheringList.lvl[$parent.$parent.main.lang]}}</th>
+            <th>{{$parent.$parent.main.texts.profession.gatheringList.res[$parent.$parent.main.lang]}}</th>
+            <th>{{$parent.$parent.main.texts.profession.gatheringList.exp[$parent.$parent.main.lang]}}</th>
         </tr>
         <tr ng-repeat="g in gatheringList">
             <td>{{g.lvl}}</td>

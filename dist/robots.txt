@@ -4,5 +4,3 @@ User-agent: *
 
 Disallow: /api/
 Disallow: /js/
-Disallow: /fonts/
-Disallow: /svg/

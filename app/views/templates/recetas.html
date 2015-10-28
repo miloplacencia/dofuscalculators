@@ -1,21 +1,46 @@
- <div 
- 	ng-repeat="(receta, ingredientes) in recipes"
- 	id="Recipe{{ receta | noSpace }}" 
- 	class="recipe"
- 	ng-show="!results.slots[slots].search || (results.slots[slots].search && receta.toLowerCase().indexOf(results.slots[slots].search.toLowerCase())!==-1)">
-	<div class="titleRecipe" ng-click="results.slots[slots].recipes[receta].toggleCalcRecipe()">
-	    <span 
-	    	class="icon-eye calcRecipe" 
-	    	rel="Calculate Amounts" 
-	    	ng-class="{check:results.slots[slots].recipes[receta].calcRecipe}"></span>
-	    <strong>{{receta}}</strong>
-	</div><!-- end .titleRecipe -->
-	<div class="ingredientes" ng-if="results.slots[slots].recipes[receta].calcRecipe">
-	    <span ng-repeat="(ingrediente, cantidad) in ingredientes">
-	        <span class="ingredName">{{ingrediente}}</span> x 
-	        <span class="ingredQuantity" ng-class="{check:results.slots[slots].recipes[receta].calcRecipe}">
-	        	{{ results.slots[slots].cantidad * cantidad | number }}
-	        </span>
-	    </span> 
-	</div><!--end .ingredientes-->
+<div 	ng-repeat="(nombreReceta, recetaObj) in recipes track by $index"
+		 	id="Recipe{{ ::sinEspacios(nombreReceta) }}" 
+		 	class="recipe"
+		 	ng-show="!results.slots[slots].search || (results.slots[slots].search && recetaObj.i18n[profession.lang].toLowerCase().indexOf(results.slots[slots].search.toLowerCase())!==-1)">
+
+	<title-recipe recipe-api receta="recetaObj">
+    <div class="recipe-box__icon">
+      <span class="icon-eye calcRecipe" rel="Calculate Amounts" ng-class="{check: showRecipe}"></span>
+    </div>
+    <div class="recipe-box__text">
+      <strong ng-if="!!recetaObj.i18n[profession.lang]">
+        {{recetaObj.i18n[profession.lang]}}
+      </strong>
+      <strong ng-if="!recetaObj.i18n[profession.lang]">
+        {{recetaObj.i18n.en}}
+      </strong>
+      <em class="nivel-receta">Lvl: {{recetaObj.lvl}}</em>
+    </div>
+	</title-recipe><!-- end .titleRecipe -->
+
+  <list-ingredients recipe-api receta="recetaObj">
+		<!--no existe i18n-->
+    <span ng-if="!profession.ingredientsi18n[nombreReceta]"
+    			ng-repeat="ingredienteObj in recetaObj.recipe.ingredients track by $index" class="ingrediente">
+      <span class="ingredQuantity" ng-class="{check: showRecipe}">
+      	{{ calcRecipe($parent.cantidad, ingredienteObj.value) }}
+      </span>
+      <span class="ingredName">
+        {{ ingredienteObj.name }}
+      </span>
+    </span>
+
+    <!--existe i18n-->
+    <span ng-if="profession.ingredientsi18n[nombreReceta]"
+          ng-repeat="(nombreIngrediente,ingObj) in profession.ingredientsi18n[nombreReceta] track by $index"
+          class="ingrediente">
+      <span class="ingredQuantity" ng-class="{check:showRecipe}">
+      	{{ calcRecipe($parent.cantidad, ingObj.value) }}
+      </span>
+      <span class="ingredName">
+        {{ ingObj[profession.lang] }}
+        {{ profession.ingredientsi18n[nombreReceta][profession.lang] }}
+      </span>
+    </span>
+  </list-ingredients><!--end .ingredientes-->
 </div><!--end .recipe-->

@@ -11,6 +11,7 @@
   font-style: normal;
 }
 
+
 [data-icon]:before {
   font-family: "dofus-professions" !important;
   content: attr(data-icon);
@@ -130,9 +131,21 @@
 .icon-fontawesome-webfont:before {
   content: "y";
 }
-.icon-dofus-calculators:before {
+.icon-dofus-calculators-only:before {
   content: "A";
 }
 .icon-dofus-calculators-only:before {
   content: "z";
+}
+.icon-dofus-calculators-only:before {
+  content: "z";
+}
+.icon-dofus-calculators:before {
+  content: "A";
+}
+.icon-magnifying-glass:before {
+  content: "E";
+}
+.icon-trash:before {
+  content: "F";
 }

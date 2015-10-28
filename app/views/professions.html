@@ -1,28 +1,37 @@
         <div id="data" class="fila">
-            <h2>Insert your data</h2>
-            <label for="expBase">
-                Base experience
+            <h2>{{main.texts.profession.dataEnter.insert[main.lang]}}</h2>
+            <label class="label-input exp-base">
+                <span class="exp-base__texto label-input__texto label-input__texto--exp-base">
+                    {{main.texts.profession.dataEnter.exp[main.lang]}}
+                </span>
                 <input 
-                    type="number" 
-                    name="expBase" min="0" max="581688" id="expBase" 
+                    type="text" 
+                    pattern="[\d+]{1,8}"
+                    name="expBase" id="expBase" 
                     ng-model="profession.exp"
-                    placeholder="{{ profession.exp }}">
+                    placeholder="{{ profession.exp }}"
+                    class="label-input__input">
             </label>
-            <label for="nivelFinal">
-                Goal Lvl
+            <label class="label-input nivel-final">
+                <span class="label-input__texto label-input__texto--nivel-final">
+                    {{main.texts.profession.dataEnter.lvl[main.lang]}}
+                </span>
                 <input 
-                    type="number" 
-                    name="nivelFinal" min="1" max="100"
+                    type="text" 
+                    pattern="[\d+]{1,3}"
+                    name="nivelFinal" 
                     id="nivelFinal" 
                     ng-model="profession.level"
-                    placeholder="{{ profession.level }}">
+                    placeholder="{{ profession.level }}"
+                    class="label-input__input">
             </label>
         </div><!--end #data-->
-        <error-msg></error-msg>
+        <error-msg warning="getWarning()" profession="profession"></error-msg>
 
         <div id="professions" class="fila">
-            <h2>Select your Profession</h2>
+            <h2>{{main.texts.profession.selectPro[main.lang]}}</h2>
             <profesiones-lista profession="profession">
+                <profesion ng-repeat="pro in profession.list"></profesion>
             </profesiones-lista>
         </div><!--end #professions-->
 
@@ -35,28 +44,37 @@
                 <profession-gathering></profession-gathering>
 
                 <div id="crafts" class="dorado" ng-class="{grande:results.isGathering}">
-                    <h2>List of Recipes</h2>
+                    <h2>{{main.texts.profession.list[main.lang]}}</h2>
+
+                    <div class="setLangContainer">
+                        <span>{{main.texts.searchIn[main.lang]}}: </span>
+                        <a ng-click="profession.setLang('en')" ng-class="{activo:profession.lang==='en'}" class="setLang">EN</a>
+                        <a ng-click="profession.setLang('es')" ng-class="{activo:profession.lang==='es'}" class="setLang">ES</a>
+                        <a ng-click="profession.setLang('pt')" ng-class="{activo:profession.lang==='pt'}" class="setLang">PT</a>
+                        <a ng-click="profession.setLang('fr')" ng-class="{activo:profession.lang==='fr'}" class="setLang">FR</a>
+                        <a ng-click="profession.setLang('it')" ng-class="{activo:profession.lang==='it'}" class="setLang">IT</a>
+                        <a ng-click="profession.setLang('de')" ng-class="{activo:profession.lang==='de'}" class="setLang">DE</a>
+                    </div>
                     <div class="loader activo">
-                        <div id="Slot{{slots}}" 
-                            ng-repeat="(slots,recipes) in crafts" 
-                            class="slots" 
-                            ng-class="{expanded:results.slots[slots].desplegado}">
-                            <slots profession="profession"
-                                results="results"
-                                slots="{{slots}}">
-                            </slots>
+                        
+                        <slots crafts="crafts" slots="{{slots}}" results="results" main="main" ng-repeat="(slots,recipes) in crafts track by $index" >
+
+                            <numero-slots></numero-slots>
                             
-                            <div class="recipeList" ng-if="results.slots[slots].desplegado">
+                            <recipe-list>
                                 <div class="searchBox">
                                     <input type="text" 
                                         name="searchBox-{{slots}}" 
                                         id="searchBox-{{slots}}" 
-                                        placeholder="Search a Recipe"
+                                        placeholder="{{main.texts.searchInput[main.lang]}}"
                                         ng-model="results.slots[slots].search">
+                                    <span class="icon-magnifying-glass searchIcon"></span>
                                 </div>
                                 <recetas></recetas>
-                            </div><!--end .recipeList-->
-                        </div><!--end .slots-->
+                            </recipe-list>
+
+                        </slots>
+
                     </div><!--end .loader-->
                 </div><!--end #crafts.dorado.grande-->
             </div><!--end #resultado-->

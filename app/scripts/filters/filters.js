@@ -4,14 +4,13 @@
 
 var dofusFilters = angular.module('DofusExpCalculator');
 
-dofusFilters.filter('noSpace',function()
+dofusFilters.filter('noSpace',[function()
 {
 	return function(string)
 	{
-		if(!!string)
-			string.replace(' ','');
+		if(!!string) string.replace(' ','');
 	};
-});
+}]);
 
 
 

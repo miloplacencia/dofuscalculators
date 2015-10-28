@@ -1,72 +1,104 @@
 'use strict';
 
 angular.module('DofusExpCalculator')
-  .factory('HunterFactory', ['$http','CalculatorService','$filter',function($http,CS,$filter) {
+  .factory('HunterFactory', ['$http','CalculatorService','$filter','$q',function($http,CS,$filter,$q) {
     var hunter = {};
-    var url    = 'JSON/';
+    var url    = 'http://dofuscalculatorsnode-milonga.rhcloud.com';
 
     hunter.recipes = {
-      hunter:   {},
-      butcher:  {},
-      totals: {},
-      ingredients: {}
+      hunter      : {},
+      butcher     : {},
+      totals      : {},
+      ingredients : {}
     };
 
     hunter.profession = '';
 
-    hunter.orderTotals = function()
+    var getIngredients = function()
     {
-      var $this = this;
-      var butcher = this.recipes.butcher;
-      var hunter = this.recipes.hunter;
-      var ingredients = this.recipes.ingredients;
-      var totals = {};
-
-      angular.forEach(butcher,function(ingredientObj,recipeName)
-      {
-        angular.forEach(ingredientObj,function(quantity,name)
-        {
-          if(!ingredients[name] && !!hunter[name])
-          {
-            angular.forEach(hunter[name],function(q,n)
-            {
-              if(name === n)
-              {
-                ingredientObj[name] += q;
-              }
-              else
-              {
-                ingredientObj[n] = q;
-              }
-            });
-
-            totals[recipeName] = ingredientObj;
-          }
-        });
-      });
-      this.recipes.totals = totals;
-      console.log($filter('json')(totals));
+      return $http.get(url+'/api/hunterIngredients',{cache:true});
     };
-    
+
+    var getProfession = function(profession)
+    {
+      return $http.get(url+'/api/professions/'+profession,{cache:true});
+    };
+
+    var getRecipes = function()
+    {
+      var self = this;
+
+      var promises = {
+        hunter: getProfession('hunter'),
+        butcher: getProfession('butcher'),
+        ingredients: getIngredients()
+      };
+
+      return $q.all(promises);
+    };
+
+    var orderRecipe = function(data)
+    {
+      var self = hunter;
+      angular.forEach(data,function(obj,i)
+      {
+        if(!/ghost/gi.test(obj.name))
+        {
+          self.recipes[obj.profession][obj.name] = {
+            i18n : obj.i18n,
+            ingredients: {}
+          };
+
+          angular.forEach(obj.recipe.ingredients,function(ing)
+          {
+            self.recipes[obj.profession][obj.name].ingredients[ing.name] = parseInt(ing.value,10);
+          });
+        }
+      });
+    };
+
+    var orderIngredients = function(data)
+    {
+      var ingredients = {};
+      var self = hunter;
+
+      angular.forEach(data,function(obj)
+      {
+        ingredients[obj.name] = obj;
+      });
+
+      self.recipes.ingredients = ingredients;
+    };
+
     hunter.putRecipes = function()
     {
-      var $this = this;
-      return $http.get(url+'hunter_in_butcher.json',{
-        cache:true
-      }).success(function(data)
+      var self = this;
+
+      getRecipes().then(function(d)
       {
-        angular.forEach(data,function(obj,professionName)
+        if(d)
         {
-          $this.recipes[professionName] = CS.removeBlank(obj);
-          //$this.orderTotals();
-        });
+          var hunter = d.hunter.data;
+          var butcher = d.butcher.data;
+          var ingredients = d.ingredients.data;
+
+          orderRecipe(hunter);
+          orderRecipe(butcher);
+          orderIngredients(ingredients)
+
+          self.recipes.hunter = CS.removeBlank(self.recipes.hunter);
+          self.recipes.butcher = CS.removeBlank(self.recipes.butcher);
+          
+          self.recipes.totals = angular.extend(self.recipes.totals,self.recipes.butcher);
+          self.recipes.totals = angular.extend(self.recipes.totals,self.recipes.hunter);
+        }
       });
     };
 
     hunter.addRecipe = function(recipe)
     {
       var $this = this;
-      var ingredientes = this.recipes[this.profession][recipe];
+      var ingredientes = this.recipes[this.profession][recipe].ingredients;
       var recipeNew = {
         ingredients: ingredientes,
         quantity: 1
@@ -86,23 +118,23 @@ angular.module('DofusExpCalculator')
 
     hunter.addIngredient = function(ingredientes)
     {
-      var $this = this;
+      var self = this;
       var profession = this.profession;
 
       angular.forEach(ingredientes,function(quantity,name)
       {
-        var ingredientCalc = $this.ingredientsToCalc[name];
-        var ingredientName = $this.recipes.ingredients[name];
+        var ingredientCalc = self.ingredientsToCalc[name];
+        var ingredientName = self.recipes.ingredients[name];
 
         if(!ingredientCalc && !!ingredientName)
         {
-          $this.ingredientsToCalc[name] = {
+          self.ingredientsToCalc[name] = {
             quantity: parseInt(quantity,10)
           };
         }
         else if(!!ingredientCalc && !!ingredientName)
         {
-          $this.ingredientsToCalc[name].quantity += parseInt(ingredientes[name],10);
+          self.ingredientsToCalc[name].quantity += parseInt(ingredientes[name],10);
         }
       });
     };

@@ -1,1 +1,11 @@
-<div id="level" class="fila"><div class="levelInfo"><span>As a level <strong>{{ profession.levelInicial }}</strong> {{profession.name}} you need <strong>{{ profession.expRestante }}xp</strong> to achieve level <strong>{{profession.level}}</strong></span> <span class="iconProfession icon-{{ profession.name | lowercase }}"></span></div><!--end .levelInfo--></div><!--end #level-->
+<div id="level" class="fila">
+    <div class="levelInfo">
+        <span ng-if="$parent.$parent.main.lang==='en'">
+        	As a level <strong>{{ profession.levelInicial }}</strong> {{profession.i18n[profession.name].en}} you need <strong>{{ profession.expRestante | number	}}xp</strong> to achieve level <strong>{{profession.level}}</strong>
+        </span>
+        <span ng-if="$parent.$parent.main.lang==='es'">
+        	Como un {{profession.i18n[profession.name].es}} de Nivel <strong>{{ profession.levelInicial }}</strong> Necesitas <strong>{{ profession.expRestante | number	}}xp</strong> para lograr el Nivel <strong>{{profession.level}}</strong>
+        </span>
+        <span class="iconProfession icon-{{ profession.name | lowercase }}"></span>
+    </div><!--end .levelInfo-->
+</div><!--end #level-->

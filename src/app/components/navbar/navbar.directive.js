@@ -3,7 +3,7 @@
 
   angular
     .module('dofuscalculators2')
-    .directive('acmeNavbar', acmeNavbar);
+    .directive('navbar', acmeNavbar);
 
   /** @ngInject */
   function acmeNavbar() {

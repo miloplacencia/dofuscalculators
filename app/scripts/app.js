@@ -21,14 +21,12 @@ angular.module('DofusExpCalculator',
 
     var hunter_calculator = {
       templateUrl : '/views/hunter.html',
-      controller  : 'HunterController',
-      resolve     : {
-        recipes: ['HunterFactory',function(HB)
-        {
-          HB.putRecipes();
-          return HB.recipes;
-        }]
-      }
+      controller  : 'HunterController'
+    };
+
+    var ingredients_calculator = {
+      templateUrl : '/views/ingredients.html',
+      controller  : 'IngredientsController'
     };
 
     $routeProvider
@@ -51,11 +49,7 @@ angular.module('DofusExpCalculator',
       .when('/:lang/calculadora_cazador',hunter_calculator)
       .when('/:lang/calculadora_cazador/:calculator',hunter_calculator)
 
-      .when('/:lang/ingredients_calculator/:calculator',
-      {
-        templateUrl : '/views/ingredients.html',
-        //controller  : 'IngredientsController'
-      })
+      .when('/:lang/ingredients_calculator',ingredients_calculator)
       .otherwise({
         redirectTo: '/en/professions_calculator'
       });

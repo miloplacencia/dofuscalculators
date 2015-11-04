@@ -735,27 +735,27 @@ $bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
   }
 }
-.displayIngredientsHunterButcher {
-  .listIngredients {
-    list-style-type: none;
-    padding:0;
-    margin:0,auto 1em;
+
+.listIngredients {
+  list-style-type: none;
+  padding:0;
+  margin:0,auto 1em;
+}
+.ingredient {
+  &:after {
+    content: ',';
+    margin-right: 5px;
   }
-  .ingredient {
-    &:nth-child(2n){
-      background-color:hsl(0,0%,97%);
-    }
-    display: table;
-    width:100%;
-    padding:0.25em;
-    span {
-      width:15%;
-      display: table-cell;
-      text-align: center;
-      &.title {
-        width:70%;
-        text-align:left;
-      }
+  &:last-child:after {
+    content: '';
+  }
+  span {
+    width:15%;
+    display: table-cell;
+    text-align: center;
+    &.title {
+      width:70%;
+      text-align:left;
     }
   }
 }

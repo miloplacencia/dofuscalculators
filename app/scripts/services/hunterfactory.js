@@ -7,17 +7,30 @@ angular.module('DofusExpCalculator')
 
     hunter.recipes = {
       hunter      : {},
-      butcher     : {},
       totals      : {},
       ingredients : {}
     };
 
     hunter.profession = '';
 
-    var getIngredients = function()
+    var getRecipe = function(recipe,lang)
     {
-      return $http.get(url+'/api/hunterIngredients',{cache:true});
+      lang = (!!lang) ? lang : 'en';
+      var defer = $q.defer();
+
+      if(recipe.length > 3)
+      {
+        $http.get(url+'/api/recipe/'+lang+'/'+recipe).then(function(data)
+          {
+            defer.resolve(data);
+          });
+        return defer.promise;
+      }
+      else
+        return 0;
     };
+
+    hunter.getRecipe = getRecipe;
 
     var getProfession = function(profession)
     {
@@ -27,19 +40,13 @@ angular.module('DofusExpCalculator')
     var getRecipes = function()
     {
       var self = this;
-
-      var promises = {
-        hunter: getProfession('hunter'),
-        butcher: getProfession('butcher'),
-        ingredients: getIngredients()
-      };
-
-      return $q.all(promises);
     };
 
+    /*
     var orderRecipe = function(data)
     {
       var self = hunter;
+
       angular.forEach(data,function(obj,i)
       {
         if(!/ghost/gi.test(obj.name))
@@ -62,6 +69,8 @@ angular.module('DofusExpCalculator')
       var ingredients = {};
       var self = hunter;
 
+      console.log(data);
+
       angular.forEach(data,function(obj)
       {
         ingredients[obj.name] = obj;
@@ -79,21 +88,19 @@ angular.module('DofusExpCalculator')
         if(d)
         {
           var hunter = d.hunter.data;
-          var butcher = d.butcher.data;
           var ingredients = d.ingredients.data;
 
           orderRecipe(hunter);
-          orderRecipe(butcher);
           orderIngredients(ingredients)
 
           self.recipes.hunter = CS.removeBlank(self.recipes.hunter);
-          self.recipes.butcher = CS.removeBlank(self.recipes.butcher);
           
-          self.recipes.totals = angular.extend(self.recipes.totals,self.recipes.butcher);
           self.recipes.totals = angular.extend(self.recipes.totals,self.recipes.hunter);
         }
       });
     };
+
+    */
 
     hunter.addRecipe = function(recipe)
     {

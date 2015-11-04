@@ -1,0 +1,19 @@
+{
+  "name": "lodash-angular-wrapper",
+  "version": "0.0.1",
+  "authors": [
+    "Pavel Serdiukov <serdukov.p.a@gmail.com>"
+  ],
+  "description": "This is simple module for wrap Lo-dash lib in angular service",
+  "main": "lodash-angular-wrapper.js",
+  "keywords": [
+    "angular",
+    "lodash",
+    "wrapper"
+  ],
+  "license": "MIT",
+  "dependencies": {
+	"angular": ">=1.2.0",
+	"lodash": ">=2.0.0"
+   }
+}

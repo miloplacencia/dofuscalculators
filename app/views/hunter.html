@@ -1,27 +1,5 @@
 <div class="fila hunterContainer">
 	<h2>{{main.texts.hunter.h2[main.lang]}}</h2>
-	<ul class="linear hunterList">
-		<li>
-			<a href="/en/hunter_calculator/hunter_butcher"
-				class="init"
-				ng-class="{ activo : isHunterButcher }">
-				{{main.texts.hunter.hunterBar.hb[main.lang]}}
-			</a>
-		</li>
-		<li>
-			<a href="/en/hunter_calculator/hunter"
-				ng-class="{ activo : isHunter }">
-				{{main.texts.hunter.hunterBar.h[main.lang]}}
-			</a>
-		</li>
-		<li>
-			<a href="/en/hunter_calculator/butcher" 
-				class="end"
-				ng-class="{ activo : isButcher }">
-				{{main.texts.hunter.hunterBar.b[main.lang]}}
-			</a>
-		</li>
-	</ul>
 	<div class="hunterCalculatorContainer" ng-controller="HunterCalculatorController">
 		<div class="setLangContainer">
 			<span>{{main.texts.searchIn[main.lang]}}: </span>
@@ -41,9 +19,10 @@
 							placeholder="{{main.texts.searchInput[main.lang]}}">
 			<span class="icon-magnifying-glass searchIcon"></span>
 			
-			<ul class="vertical listRecipes" ng-if="!!hunterButcher.search">
+			<input type="text" ng-model="search" ng-change="getRecipe()">
+			<ul class="vertical listRecipes" ng-if="!!hunterButcher.search && hunterButcher.search.length > 3 ">
 				<li class="recipe" 
-						ng-repeat="(recipe,val) in hunterButcher.recipes[hunterButcher.profession]"
+						ng-repeat="(recipe,val) in hunterButcher.getRecipe(hunterButcher.search) track by $index"
 						ng-if="hunterButcher.isSearched(val.i18n[hunterButcher.language])"
 						ng-click="hunterButcher.addRecipe(recipe)">
 					<strong>{{ val.i18n[hunterButcher.language] }}</strong>

@@ -76,53 +76,35 @@
 		};
 
 		this.Professions = [
-			'Alchemist',
-			'Lumberjack',
-			'Hunter',
-			'Fisherman',
-			'Farmer',
-			'Miner',
-			'Fishmonger',
-			'Butcher',
-			'Baker',
-			'Tailor',
-			'Jeweller',
-			'Shoemaker',
-			'Handyman',
-			'Wand-Carver',
-			'Staff-Carver',
-			'Bow-Carver',
-			'Axe-Smith',
-			'Hammer-Smith',
-			'Dagger-Smith',
-			'Sword-Smith',
-			'Shovel-Smith',
-			'Shield-Smith'
+			  'Hunter',
+			  'Alchemist',
+			  'Artificer',
+			  'Carver', 
+			  'Farmer', 
+			  'Fisherman', 
+			  'Handyman', 
+			  'Jeweller', 
+			  'Lumberjack', 
+			  'Miner', 
+			  'Shoemaker', 
+			  'Smith', 
+			  'Tailor'
 		];
 
 		this.ProfessionsI18N = {
-			'Alquimista': 'Alchemist',
-			'Leñador': 'Lumberjack',
 			'Cazador': 'Hunter',
-			'Pescador': 'Fisherman',
-			'Campesino': 'Farmer',
-			'Minero': 'Miner',
-			'Pescadero': 'Fishmonger',
-			'Carnicero': 'Butcher',
-			'Panadero': 'Baker',
-			'Sastre': 'Tailor',
-			'Joyero': 'Jeweller',
-			'Zapatero': 'Shoemaker',
-			'Manitas': 'Handyman',
-			'Escultor-de-Varitas': 'Wand-Carver',
-			'Escultor-de-Bastones': 'Staff-Carver',
-			'Escultor-de-Arcos': 'Bow-Carver',
-			'Forjador-de-Hachas': 'Axe-Smith',
-			'Forjador-de-Martillos': 'Hammer-Smith',
-			'Forjador-de-Dagas': 'Dagger-Smith',
-			'Forjador-de-Espadas': 'Sword-Smith',
-			'Forjador-de-Palas': 'Shovel-Smith',
-			'Forjador-de-Escudos': 'Shield-Smith'
+		  	'Alquimista': 'Alchemist',
+		  	'Pescador': 'Fisherman', 
+		  	'Campesino': 'Farmer', 
+		  	'Minero': 'Miner', 
+		  	'Leñador': 'Lumberjack', 
+		  	'Fabricante': 'Artificer',
+		  	'Escultor': 'Carver', 
+		  	'Manitas': 'Handyman', 
+		  	'Joyero': 'Jeweller', 
+		  	'Zapatero': 'Shoemaker', 
+		  	'Forjador': 'Smith', 
+		  	'Sastre': 'Tailor'
 		};
 
 		this.expLvl = [0,50,140,271,441,653,905,1199,1534,1911,2330,2792,3297,3846,4439,5078,5762,6493,7271,8097,8973,9898,10875,11903,12985,14122,15315,16564,17873,19242,20672,22166,23726,25353,27048,28815,30656,32572,34566,36641,38800,41044,43378,45804,48325,50946,53669,56498,59437,62491,65664,68960,72385,75943,79640,83482,87475,91624,95937,100421,105082,109930,114971,120215,125671,131348,137256,143407,149811,156481,163429,170669,178214,186080,194283,202839,211765,221082,230808,240964,251574,262660,274248,286364,299037,312297,326175,340705,355924,371870,388582,406106,424486,443772,464016,485274,507604,531071,555741,581687];
@@ -138,23 +120,13 @@
 				'Miner'
 			],
 			'craft'  : [
-				'Baker',
-				'Butcher',
-				'Hunter',
-				'Fishmonger',
-				'Jeweller',
-				'Shoemaker',
-				'Tailor',
-				'Handyman',
-				'Bow Carver',
-				'Staff Carver',
-				'Wand Carver',
-				'Axe Smith',
-				'Dagger Smith',
-				'Hammer Smith',
-				'Shovel Smith',
-				'Sword Smith',
-				'Shield Smith'
+				'Artificer',
+			  	'Carver', 
+			  	'Handyman', 
+			  	'Jeweller', 
+			  	'Shoemaker', 
+			  	'Smith', 
+			  	'Tailor'
 			]
 		};
 		this.i18nProfessions = {
@@ -178,21 +150,9 @@
 				en: 'Miner',
 				es: 'Minero'
 			},
-			'Baker': {
-				en: 'Baker',
-				es: 'Panadero'
-			},
-			'Butcher': {
-				en: 'Butcher',
-				es: 'Carnicero'
-			},
 			'Hunter': {
 				en: 'Hunter',
 				es: 'Cazador'
-			},
-			'Fishmonger': {
-				en: 'Fishmonger',
-				es: 'Pescadero'
 			},
 			'Jeweller': {
 				en: 'Jeweller',
@@ -210,41 +170,17 @@
 				en: 'Handyman',
 				es: 'Manitas'
 			},
-			'Bow-Carver': {
-				en: 'Bow Carver',
-				es: 'Escultor de Arcos'
+			'Carver': {
+				en: 'Carver',
+				es: 'Escultor'
 			},
-			'Staff-Carver': {
-				en: 'Staff Carver',
-				es: 'Escultor de Bastones'
+			'Smith': {
+				en: 'Smith',
+				es: 'Forjador'
 			},
-			'Wand-Carver': {
-				en: 'Wand Carver',
-				es: 'Escultor de Varitas'
-			},
-			'Axe-Smith': {
-				en: 'Axe Smith',
-				es: 'Forjador de Hachas'
-			},
-			'Dagger-Smith': {
-				en: 'Dagger Smith',
-				es: 'Forjador de Dagas'
-			},
-			'Hammer-Smith': {
-				en: 'Hammer Smith',
-				es: 'Forjador de Martillos'
-			},
-			'Shovel-Smith': {
-				en: 'Shovel Smith',
-				es: 'Forjador de Palas'
-			},
-			'Sword-Smith': {
-				en: 'Sword Smith',
-				es: 'Forjador de Espadas'
-			},
-			'Shield-Smith': {
-				en: 'Shield Smith',
-				es: 'Forjador de Escudos'
+			'Artificer' : {
+				en: 'Artificer',
+				es: 'Fabricante'
 			}
 		};
 

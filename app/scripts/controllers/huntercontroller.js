@@ -6,41 +6,25 @@ var dofusControllers =  angular.module('DofusExpCalculator');
 
 //HUNTER AND BUTCHER CALCULATOR
 dofusControllers
-	.controller('HunterController',['$scope','$routeParams','recipes',function($scope,$routeParams,recipes)
+	.controller('HunterController',['$scope','$routeParams',function($scope,$routeParams)
 	{
-		var returnCalculator = function()
-		{
-			return $routeParams.calculator;
-		};
 
-		$scope.isButcher = returnCalculator()==='butcher' || returnCalculator()==='carnicero';
-		$scope.isHunter = returnCalculator()==='hunter' || returnCalculator()==='cazador';
-		$scope.isHunterButcher = !returnCalculator() || returnCalculator()==='hunter_butcher' || returnCalculator()==='cazador_carnicero';
-		
-		$scope.hunterOrButcher = function()
-		{
-			var isWhichOfThose = returnCalculator();
-			var isTotals = isWhichOfThose.split('_');
-			return (isTotals.length===2)?'totals':isTotals[0];
-		}
 	}]);
 
 dofusControllers
-	.controller('HunterCalculatorController',['$scope','HunterFactory',function($scope,HunterDB)
+	.controller('HunterCalculatorController',['$scope','$http','HunterFactory',function($scope,$http,HunterDB)
 	{
-		HunterDB.profession = $scope.hunterOrButcher();
-
+		HunterDB.profession = 'Hunter';
 		$scope.hunterButcher = {
 			search:'',
 			language: 'en',
-			profession: $scope.hunterOrButcher(),
-			recipes: HunterDB.recipes,
+			getRecipe: HunterDB.getRecipe,
 			recipesToCalc: {},
 			ingredientsToCalc: {},
 			isSearched: function(recipe)
 			{
 				if(!!recipe)
-					return recipe.toLowerCase().indexOf(this.search.toLowerCase())!==-1
+					return recipe.toLowerCase().indexOf(this.search.toLowerCase())!==-1;
 			},
 			setLang: function(lang)
 			{
@@ -57,6 +41,7 @@ dofusControllers
 			calculateQuantity: HunterDB.calculateQuantity,
 			getFinalStats: HunterDB.getFinalStats
 		};
+
 		$scope.hunterButcher.nameExists = function(name)
 		{
 			var ingredients = this.recipes.ingredients;

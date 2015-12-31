@@ -1,0 +1,24 @@
+<div class="dc-searchbar">
+  <input type="text"
+    name="dc-search-recipe__input"
+    id="dc-search-recipe__input"
+    ng-model="vm.ingredients.recipeSearch"
+    class="dc-searchbar__input"
+    placeholder="Search Recipes"
+    ng-change="vm.ingredients.onRecipeSearch()">
+
+  <ul class="vertical dc-searchbar__list-recipes"
+    ng-if="!!vm.ingredients.recipeSearch">
+
+    <li class="dc-searchbar__recipe"
+      ng-repeat="recipe in vm.ingredients.tempRecipes track by $index"
+      ng-click="vm.ingredients.onRecipeSelect(recipe)"
+      ng-if="!!vm.ingredients.tempRecipes.length &&  !vm.ingredients.closeSelect">
+      <strong>{{ recipe.i18n[vm.lang] }}</strong>
+      <div class="">
+        <small>Lvl {{ recipe.lvl }}, Profession {{ recipe.profession }}, {{ recipe.type }}</small>
+      </div>
+    </li>
+
+  </ul>
+</div>

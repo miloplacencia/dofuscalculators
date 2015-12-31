@@ -1,75 +1,54 @@
 <navbar></navbar>
 
-<div class="container dc-container__ingredients-calculator">
+<div class="container dc-container__ingredients-calculator" ng-controller="MainController as vm">
+	<div class="dc-container-lang">
+		<button class="btn btn-xs" name="langEN" ng-click="vm.changeLang('en')" ng-class="{'btn-danger': vm.isLang('en'),'btn-link':!vm.isLang('en')}">EN</button>
+		<button class="btn btn-xs" name="langES" ng-click="vm.changeLang('es')" ng-class="{'btn-danger': vm.isLang('es'),'btn-link':!vm.isLang('es')}">ES</button>
+		<button class="btn btn-xs" name="langFR" ng-click="vm.changeLang('fr')" ng-class="{'btn-danger': vm.isLang('fr'),'btn-link':!vm.isLang('fr')}">FR</button>
+	</div>
+
   <div class="row dc-ingredients-calculator">
-		<div class="dc-searchbar">
-			<input type="text"
-				name="dc-search-recipe__input"
-				id="dc-search-recipe__input"
-				ng-model="ingredients.search"
-				class="dc-search"
-				placeholder="Search Recipes">
-			<ul class="vertical listRecipes" ng-if="!!ingredients.search">
-				<li class="recipe"
-					ng-repeat="(recipe,val) in ingredients.recipes[ingredients.profession]"
-					ng-if="ingredients.isSearched(recipe)"
-					ng-click="ingredients.addRecipe(recipe)">
-					<strong>{{ recipe }}</strong>
-					<p>
-						(<small class="ingredient" ng-repeat="(name,q) in val">
-							{{ name + ' x ' + q + helper.needComa($index,val) }}
-						</small>)
-					</p>
-				</li>
-			</ul>
-		</div>
+		<search-bar ingredients="vm.ingredients" lang="vm.lang"></search-bar>
+
 		<div class="dc-recipes">
-			<div class="recipe" ng-repeat="(name,recipe) in ingredients.recipesToCalc">
-				<div class="quantity">
-					<input type="number" name="recipeQuantity" ng-model="recipe.quantity">
-				</div>
-				<div class="name">
-					<strong>{{name}}</strong>
-					<small ng-repeat="(n,q) in recipe.ingredients">
-						{{n + ' x '+ ingredients.setQuantityIngredient(q,recipe.quantity) + helper.needComa($index,recipe.ingredients) }}
-					</small>
-				</div>
-				<div class="erase icon-trash" ng-click="ingredients.delRecipe(name)">
-					<span class="visuallyhidden">Delete Recipe</span>
-				</div>
-			</div>
+			<table class="table">
+				<tr ng-repeat="recipe in vm.ingredients.selectedRecipes" class="dc-recipe">
+					<td class="dc-recipe__td-quantity">
+						<input type="number" name="recipe-quantity" class="dc-recipe__quantity" ng-model="recipe.quantity" ng-change="vm.ingredients.onQuantityChange(recipe)">
+					</td>
+					<td>
+						<div>
+							<strong>{{ recipe.i18n[vm.lang] }}</strong>
+						</div>
+						<small ng-repeat="ingredient in recipe.linkedIngredients" class="ingredient">
+							{{ vm.ingredients.ingredientsi18n[ingredient.name][vm.lang] + ' x '+ ingredient.value }}
+							<em>({{recipe.quantity * ingredient.value}})</em>
+						</small>
+					</td>
+					<td class="dc-recipe__td-delete">
+						<div class="dc-recipe__delete" ng-click="vm.ingredients.deleteRecipe(recipe)">
+							<i class="glyphicon glyphicon-trash"></i>
+						</div>
+					</td>
+				</tr>
+			</table>
+
 		</div>
 		<div class="dc-ingredients">
-			<ul class="vertical listIngredients">
-				<li class="ingredient" ng-if="ingredients.getFinalStats().price>0">
-					<span class="title"><strong>Name</strong></span>
-					<span><strong>Quantity</strong></span>
-					<span><strong>Price</strong></span>
-				</li>
-				<li class="ingredient" ng-repeat="(name,Q) in ingredients.ingredientsToCalc">
-					<span class="title">{{name}}</span>
-					<span>
-						{{ ingredients.calculateQuantity(Q,name).totalQuantity }}
-					</span>
-					<span class="totalNumber">
-						{{ ingredients.ingredientsToCalc[name].totalPrice }} K
-					</span>
-				</li>
-				<li class="ingredient" ng-if="ingredients.getFinalStats().price>0">
-					<span class="title"></span>
-					<span><strong>Total Price</strong></span>
-					<span class="totalNumber">
-						{{ ingredients.getFinalStats().price }} K
-					</span>
-				</li>
-				<li class="ingredient" ng-if="ingredients.getFinalStats().price>0">
-					<span class="title"></span>
-					<span><strong>Total Pods</strong></span>
-					<span class="totalNumber">
-						{{ ingredients.getFinalStats().pods }}
-					</span>
-				</li>
-			</ul>
+			<table class="table table-hover">
+				<tr ng-if="!!vm.ingredients.selectedRecipes.length">
+					<th>Name</th>
+					<th>Quantity</th>
+				</tr>
+				<tr ng-repeat="(n,q) in vm.ingredients.listIngredients">
+					<td>
+						{{ vm.ingredients.ingredientsi18n[n][vm.lang] }}
+					</td>
+					<td>
+						{{ q }}
+					</td>
+				</tr>
+			</table>
 		</div>
   </div><!-- dc-ingredients-calculator -->
 </div><!-- dc-container -->

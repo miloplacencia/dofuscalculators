@@ -3,6 +3,9 @@
  *  The list of variables are listed here bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss
  */
 $navbar-inverse-link-color: #5AADBB;
+$border-radius-base: 0px;
+$border-radius-large: 0px;
+
 $rojo : hsl(0,50%,50%);
 $icon-font-path: "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
@@ -18,47 +21,66 @@ $icon-font-path: "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/"
 	height: 40px;
 	margin: 5px 0;
 }
-
+.dc-container-lang {
+	margin-bottom: 5px;
+}
 .dc-searchbar {
   position:relative;
-	
-  .searchIcon {
-    font-size: 2em;
-    color: hsl(0, 0%, 65%);
-    position: absolute;
-    top: 50%;
-    right: 0.5em;
-    margin-top: -0.45em;
+}
+.dc-searchbar__input {
+  width: 100%;
+  padding: 0.75em 1em;
+  font-size: 1.5em;
+}
+.dc-searchbar__list-recipes {
+  position:absolute;
+  top:100%;
+  list-style-type: none;
+  padding:0;
+  background-color:white;
+  width:100%;
+  max-height:300px;
+  overflow:auto;
+  margin:0;
+}
+.dc-searchbar__recipe {
+  padding: 0.75em;
+  font-size: 1.3em;
+  p {
+    margin: 0;
+    font-size: 0.8em;
+    color: hsl(0, 0%, 30%);
   }
-  input {
-    width: 100%;
-    padding: 0.75em 1em;
-    font-size: 1.5em;
-  }
-  .listRecipes {
-    position:absolute;
-    top:100%;
-    list-style-type: none;
-    padding:0;
-    background-color:white;
-    width:100%;
-    max-height:300px;
-    overflow:auto;
-    margin:0;
-  }
-  .recipe {
-    padding: 0.75em;
-    font-size: 1.3em;
-    p {
-      margin: 0;
-      font-size: 0.8em;
-      color: hsl(0, 0%, 30%);
-    }
-    &:hover {
-      background-color:hsl(0,0%,95%);
-    }
+  &:hover {
+    background-color:hsl(0,0%,95%);
   }
 }
+
+.dc-recipes {}
+.dc-recipe {}
+.dc-recipe__td-quantity {
+  width: 120px;
+}
+.dc-recipe__quantity {
+  padding: 10px 0 10px 12px;
+  font-size: 18px;
+  text-align: center;
+  width: 100px;
+}
+.dc-recipe__td-delete {
+
+}
+.dc-recipe__delete {
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
+  background: hsl(0,50%,50%);
+  color: white;
+  font-size: 20px;
+  vertical-align: middle;
+  width: 100px;
+}
+
 .displayRecipesHunterButcher {
   .recipe {
     display: table;
@@ -127,6 +149,28 @@ $icon-font-path: "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/"
     }
   }
 }
+.ingredient {
+  &:after {
+    content: ',';
+    margin-right: 5px;
+  }
+  &:last-child:after {
+    content: '';
+  }
+  span {
+    width:15%;
+    display: table-cell;
+    text-align: center;
+    &.title {
+      width:70%;
+      text-align:left;
+    }
+  }
+}
+
+
+
+
 /**
  *  Do not remove the comments below. It's the markers used by gulp-inject to inject
  *  all your sass files automatically
